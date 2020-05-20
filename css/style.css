@@ -1,4 +1,70 @@
 body {
-    background-color: #eee;
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    background-color: #FCFAF2;
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    color: #333;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #2B3648;
+    width: 100vw;
+    height: 40px;
+    color: #FFF;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#infos {
+    margin: 20px;
+    height: 100px;
+}
+
+#timeline {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100vw;
+  background-color: #FFF;
+}
+
+.card {
+    cursor: grab;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    background-color: #ecebe8;
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px;
+    padding: 20px;
+    line-height: 1.4;
+    box-shadow: 3px 3px 4px #ddd;
+}
+
+.card:first-child {
+    margin-left: auto;
+}
+.card:last-child {
+    margin-right: auto;
+}
+
+.card time {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    font-size: 2em;
+    color: #edb819;
+    margin-top: 10px;
+}
+
+#cardStack {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100vw;
+}
+
+#cardStack time {
+    display: none;
 }
