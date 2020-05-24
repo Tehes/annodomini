@@ -2,7 +2,11 @@ annoDomini = function() {
 
     /* -------------------- Helper functions -------------------- */
 
-
+    HTMLElement.prototype.empty = function() {
+        while (this.firstChild) {
+            this.removeChild(this.firstChild);
+        }
+    };
 
     /* -------------------- Variables -------------------- */
 
@@ -17,6 +21,8 @@ annoDomini = function() {
             put: false // Do not allow items to be put into this list
         },
         animation: 150,
+        delay: 150, // time in milliseconds to define when the sorting should start
+        delayOnTouchOnly: true, // only delay if user is using touch
         ghostClass: "sortable-ghost",  // Class name for the drop placeholder
     	dragClass: "sortable-drag",  // Class name for the dragging item
         sort: false // To disable sorting: set sort to false
@@ -25,6 +31,8 @@ annoDomini = function() {
     new Sortable(timeline, {
         group: 'shared',
         animation: 150,
+        delay: 150, // time in milliseconds to define when the sorting should start
+        delayOnTouchOnly: true, // only delay if user is using touch
         ghostClass: "sortable-ghost",  // Class name for the drop placeholder
     	chosenClass: "sortable-chosen",  // Class name for the chosen item
     	dragClass: "sortable-drag",  // Class name for the dragging item
@@ -53,10 +61,20 @@ annoDomini = function() {
             el.appendChild(card);
     }
 
-    addCard(timeline, "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond", "1969", true);
+    function newTimetable() {
+        timeline.empty();
+
+        addCard(timeline, "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond", "1969", true);
+    }
+
+    function init() {
+        newTimetable();
+    }
 
     /* -------------------- Public -------------------- */
     return {
-
+        init: init
 	};
 }();
+
+annoDomini.init();

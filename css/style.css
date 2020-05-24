@@ -25,6 +25,7 @@ header {
   flex-wrap: nowrap;
   overflow-x: auto;
   width: 100vw;
+  height: 290px;
   justify-content: center;
   background-color: #FFF;
   min-height: -moz-min-content; /* not implemented */
