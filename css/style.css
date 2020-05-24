@@ -39,6 +39,24 @@ header {
     padding: 20px;
     line-height: 1.4;
     box-shadow: 3px 3px 4px #ddd;
+    cursor: grab;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.sortable-ghost {
+    background-color: #f5e8ce;
+    cursor: grabbing;
+}
+
+.sortable-drag {
+    opacity: 0.8;
+}
+
+.fixed {
+
 }
 
 .card:first-child {

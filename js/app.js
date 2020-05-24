@@ -18,21 +18,21 @@ annoDomini = function() {
 	};
 }();
 
-function allowDrop(ev) {
-  ev.preventDefault();
-}
+var cardStack = document.querySelector("#cardStack");
+var timeline = document.querySelector("#timeline");
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id = "drag");
-}
+new Sortable(cardStack, {
+    group: 'shared', // set both lists to same group
+    animation: 150,
+    ghostClass: "sortable-ghost",  // Class name for the drop placeholder
+	dragClass: "sortable-drag"  // Class name for the dragging item
+});
 
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  if (ev.target.id === "timeline") {
-      ev.target.appendChild(document.getElementById(data));
-  }
-}
-
-var card = document.querySelector("#timeline .card");
-console.log(card.getBoundingClientRect().x);
+new Sortable(timeline, {
+    group: 'shared',
+    animation: 150,
+    ghostClass: "sortable-ghost",  // Class name for the drop placeholder
+	chosenClass: "sortable-chosen",  // Class name for the chosen item
+	dragClass: "sortable-drag",  // Class name for the dragging item
+    filter: '.fixed', // 'filtered' class is not draggable
+});
