@@ -25,7 +25,11 @@ header {
   flex-wrap: nowrap;
   overflow-x: auto;
   width: 100vw;
+  justify-content: center;
   background-color: #FFF;
+  min-height: -moz-min-content; /* not implemented */
+  min-height: -webkit-min-content /* works for opera and safari */
+  min-height: min-content /* works for chrome */
 }
 
 .card {
@@ -60,10 +64,10 @@ header {
 }
 
 .card:first-child {
-    margin-left: auto;
+    margin-left: 15px;
 }
 .card:last-child {
-    margin-right: auto;
+    margin-right: 15px;
 }
 
 .card time {
