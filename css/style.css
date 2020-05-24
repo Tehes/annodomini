@@ -28,8 +28,8 @@ header {
   justify-content: center;
   background-color: #FFF;
   min-height: -moz-min-content; /* not implemented */
-  min-height: -webkit-min-content /* works for opera and safari */
-  min-height: min-content /* works for chrome */
+  min-height: -webkit-min-content; /* works for opera and safari */
+  min-height: min-content; /* works for chrome */
 }
 
 .card {
