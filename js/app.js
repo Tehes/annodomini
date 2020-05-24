@@ -31,6 +31,30 @@ annoDomini = function() {
         filter: '.fixed', // 'filtered' class is not draggable
     });
 
+    function addCard(el, setDesc, setYear, fixed) {
+            var card, p, description, time, year;
+
+            card = document.createElement("div");
+            card.classList.add("card");
+            if (fixed === true) {
+                card.classList.add("fixed");
+            }
+            p = document.createElement("p");
+            description = document.createTextNode(setDesc);
+            time = document.createElement("time");
+            year = document.createTextNode(setYear);
+            time.setAttribute('datetime', setYear);
+
+            p.appendChild(description);
+            time.appendChild(year);
+            card.appendChild(p);
+            card.appendChild(time);
+
+            el.appendChild(card);
+    }
+
+    addCard(timeline, "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond", "1969", true);
+
     /* -------------------- Public -------------------- */
     return {
 
