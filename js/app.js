@@ -12,6 +12,7 @@ annoDomini = function() {
 
     var cardStack = document.querySelector("#cardStack");
     var timeline = document.querySelector("#timeline");
+    var counters = document.querySelectorAll(".counter");
 
     /* -------------------- Functions -------------------- */
 
@@ -37,6 +38,7 @@ annoDomini = function() {
     	chosenClass: "sortable-chosen",  // Class name for the chosen item
     	dragClass: "sortable-drag",  // Class name for the dragging item
         filter: '.fixed', // 'filtered' class is not draggable
+        onSort: updateCounters // Called by any change to the list (add / update / remove)
     });
 
     function addCard(el, setDesc, setYear, fixed) {
@@ -61,10 +63,18 @@ annoDomini = function() {
             el.appendChild(card);
     }
 
+    function updateCounters() {
+        var timelineItems = document.querySelectorAll("#timeline .card");
+        var cardStackItems = document.querySelectorAll("#cardStack .card");
+        counters[0].textContent = "(" + timelineItems.length + ")";
+        counters[1].textContent = "(" + cardStackItems.length + ")";
+    }
+
     function newTimetable() {
         timeline.empty();
 
         addCard(timeline, "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond", "1969", true);
+        updateCounters();
     }
 
     function init() {

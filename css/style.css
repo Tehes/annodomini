@@ -15,9 +15,26 @@ header {
     font-size: 1.3em;
 }
 
+h2 {
+    font-size: 1.1em;
+    display: inline-block;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #edb819;
+}
+
+.counter {
+    font-size: 0.9em;
+    color: #edb819;
+}
+
 #infos {
     margin: 20px;
     height: 100px;
+}
+
+#timeline_container {
+    background-color: #FFFFFF;
 }
 
 #timeline {
@@ -26,11 +43,8 @@ header {
   overflow-x: auto;
   width: 100vw;
   height: 290px;
-  justify-content: center;
-  background-color: #FFF;
-  min-height: -moz-min-content; /* not implemented */
-  min-height: -webkit-min-content; /* works for opera and safari */
-  min-height: min-content; /* works for chrome */
+  /* justify-content: center; */
+  margin-bottom: 20px;
 }
 
 .card {
@@ -45,6 +59,7 @@ header {
     line-height: 1.4;
     box-shadow: 3px 3px 4px #ddd;
     cursor: grab;
+    border-radius: 5px;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
