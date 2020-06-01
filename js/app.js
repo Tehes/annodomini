@@ -13,6 +13,8 @@ annoDomini = function() {
     var cardStack = document.querySelector("#cardStack");
     var timeline = document.querySelector("#timeline");
     var counters = document.querySelectorAll(".counter");
+    var infos = document.querySelector("#infos");
+    var addPlayerButton = document.querySelector(".player.button");
 
     /* -------------------- Functions -------------------- */
 
@@ -64,10 +66,25 @@ annoDomini = function() {
     }
 
     function updateCounters() {
-        var timelineItems = document.querySelectorAll("#timeline .card");
-        var cardStackItems = document.querySelectorAll("#cardStack .card");
+        var timelineItems, cardStackItems;
+
+        timelineItems = document.querySelectorAll("#timeline .card");
+        cardStackItems = document.querySelectorAll("#cardStack .card");
         counters[0].textContent = "(" + timelineItems.length + ")";
         counters[1].textContent = "(" + cardStackItems.length + ")";
+    }
+
+    function addPlayer() {
+        var player, playerField;
+
+        playerName = prompt("Bitte gib deinen Name ein", "Spieler");
+        if (playerName === null) { return; }
+
+        playerField = document.createElement("span");
+        playerField.classList.add("player");
+        playerField.textContent = playerName;
+
+        infos.appendChild(playerField);
     }
 
     function newTimetable() {
@@ -79,6 +96,8 @@ annoDomini = function() {
 
     function init() {
         newTimetable();
+
+        addPlayerButton.addEventListener("click", addPlayer, false);
     }
 
     /* -------------------- Public -------------------- */

@@ -9,18 +9,18 @@ header {
     box-sizing: border-box;
     background-color: #2B3648;
     width: 100vw;
-    height: 40px;
     color: #FFF;
-    padding: 10px;
+    padding: 15px;
     font-size: 1.3em;
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 1.0em;
     display: inline-block;
-    margin: 10px;
+    margin: 15px 5px 0px 15px;
     padding-bottom: 5px;
     border-bottom: 2px solid #edb819;
+    text-transform: uppercase;
 }
 
 .counter {
@@ -29,12 +29,36 @@ h2 {
 }
 
 #infos {
-    margin: 20px;
-    height: 100px;
+    margin: 30px 15px 50px 15px;
+}
+
+.player {
+    background-color: #FFF;
+    border: 1px solid #ecebe8;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.button {
+    background-color: #edb819;
+    color: #FCFAF2;
+}
+
+.button:active {
+  background-color: #edb819;
+  color: #333;
+}
+
+.player:first-child {
+    margin-left: 0;
 }
 
 #timeline_container {
     background-color: #FFFFFF;
+    border-top: 1px solid #ecebe8;
+    border-bottom: 1px solid #ecebe8;
 }
 
 #timeline {
