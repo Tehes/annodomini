@@ -7,6 +7,17 @@ annoDomini = function() {
             this.removeChild(this.firstChild);
         }
     };
+	
+	Array.prototype.shuffle = function() {
+		var i = this.length;
+		while (i) {
+			var j = Math.floor(Math.random() * i);
+			var t = this[--i];
+			this[i] = this[j];
+			this[j] = t;
+		}
+		return this;
+	}
 
     /* -------------------- Variables -------------------- */
 
@@ -15,6 +26,21 @@ annoDomini = function() {
     var counters = document.querySelectorAll(".counter");
     var infos = document.querySelector("#infos");
     var addPlayerButton = document.querySelector(".player.button");
+	var playerList = [];
+	var historicalDates = [
+		{
+			date:1492,
+			desc:"Kolumbus entdeckt Amerika."
+		},
+		{
+			date:1066,
+			desc:"Wilhelm der Eroberer gründet England."
+		},
+		{
+			date:1966,
+			desc:"Neil Armstrong betritt am 21. Juli als erster Mensch den Mond."
+		}
+	];
 
     /* -------------------- Functions -------------------- */
 
@@ -76,24 +102,38 @@ annoDomini = function() {
     }
 
     function addPlayer() {
-        var player, playerField;
+        var playerName, playerField, playerObject;
 
-        playerName = prompt("Bitte gib deinen Name ein", "Spieler");
-        if (playerName === null) { return; }
+        playerName = prompt("Bitte gib deinen Namen ein", "Spieler");
+		playerName.trim();
+        if (playerName === null || playerName === "") { return; }
 
         playerField = document.createElement("span");
         playerField.classList.add("player");
         playerField.textContent = playerName;
 
         infos.appendChild(playerField);
+		
+		playerObject = {
+			name: playerName,
+			cards: drawCards(9)
+		};
+		playerList.push(playerObject);
     }
 
     function newTimetable() {
         timeline.empty();
-
-        addCard(timeline, "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond", "1969", true);
+		
+		historicalDates.shuffle();
+        addCard(timeline, historicalDates[0].desc, historicalDates[0].date, true);
+		historicalDates.shift();
         updateCounters();
     }
+	
+	function drawCards(amount) {
+		return amount;
+		/* to be done: this function shall draw an amount of cards from the stack */
+	}
 
     function init() {
         newTimetable();
