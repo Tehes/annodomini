@@ -40,7 +40,8 @@ annoDomini = function() {
     	chosenClass: "sortable-chosen",  // Class name for the chosen item
     	dragClass: "sortable-drag",  // Class name for the dragging item
         filter: '.fixed', // 'filtered' class is not draggable
-        onSort: updateCounters // Called by any change to the list (add / update / remove)
+		sort: false, // To disable sorting: set sort to false
+        onAdd: updateCounters // Element is dropped into the list from another list
     });
 
     function addCard(el, setDesc, setYear, fixed) {
