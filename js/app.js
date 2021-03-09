@@ -37,9 +37,49 @@ annoDomini = function() {
 			desc:"Wilhelm der Eroberer gründet England."
 		},
 		{
+			date:1914,
+			desc:"Beginn des 1. Weltkriegs"
+		},
+		{
+			date:1929,
+			desc:"Beginn Weltwirtschaftskrise"
+		},
+		{
+			date:1939,
+			desc:"Beginn des 2. Weltkriegs"
+		},
+		{
+			date:1961,
+			desc:"Bau der Berliner Mauer"
+		},
+		{
+			date:1962,
+			desc:"Kuba Krise"
+		},
+		{
+			date:1964,
+			desc:"Vietnam-Krieg"
+		},
+		{
 			date:1966,
 			desc:"Neil Armstrong betritt am 21. Juli als erster Mensch den Mond."
-		}
+		},
+		{
+			date:1986,
+			desc:"Kernschmelze im Atomkraftwerk Tschernobyl"
+		},
+		{
+			date:2001,
+			desc:"Anschläge auf World Trade Center"
+		},
+		{
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+		{
+			date:2011,
+			desc:"Kernschmelze im Atomkraftwerk Fukushima"
+		},
 	];
 
     /* -------------------- Functions -------------------- */
@@ -124,18 +164,25 @@ annoDomini = function() {
     function newTimetable() {
         timeline.empty();
 		
-		historicalDates.shuffle();
         addCard(timeline, historicalDates[0].desc, historicalDates[0].date, true);
 		historicalDates.shift();
         updateCounters();
     }
 	
 	function drawCards(amount) {
-		return amount;
-		/* to be done: this function shall draw an amount of cards from the stack */
+		var i, cardList, dateObject;
+		
+		cardList = [];
+		for (i = 0; i < amount; i++) {
+			cardList.push(historicalDates[0]);
+			historicalDates.shift();
+		}
+		
+		return cardList;
 	}
 
     function init() {
+		historicalDates.shuffle();
         newTimetable();
 
         addPlayerButton.addEventListener("click", addPlayer, false);
