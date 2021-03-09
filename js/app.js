@@ -61,12 +61,24 @@ annoDomini = function() {
 			desc:"Vietnam-Krieg"
 		},
 		{
-			date:1966,
+			date:1969,
 			desc:"Neil Armstrong betritt am 21. Juli als erster Mensch den Mond."
+		},
+		{
+			date:1985,
+			desc:"Boris Becker wird der erste deutsche und der jüngste Wimbledon-Sieger aller Zeiten."
 		},
 		{
 			date:1986,
 			desc:"Kernschmelze im Atomkraftwerk Tschernobyl"
+		},
+		{
+			date:1989,
+			desc:"Fall der Mauer und Öffnung aller DDR-Grenzen nach Westen."
+		},
+		{
+			date:1994,
+			desc:"Michael Schumacher wird erstmals Formel 1 Weltmeister."
 		},
 		{
 			date:2001,
@@ -159,6 +171,11 @@ annoDomini = function() {
 			cards: drawCards(9)
 		};
 		playerList.push(playerObject);
+		
+		//only temporary loop to fill the card stack
+		for (var i = 0; i < 9; i++) {
+			addCard(cardStack, playerObject.cards[i].desc, playerObject.cards[i].date, false);
+		}
     }
 
     function newTimetable() {
