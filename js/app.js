@@ -26,6 +26,7 @@ annoDomini = function() {
     var counters = document.querySelectorAll(".counter");
     var infos = document.querySelector("#infos");
     var addPlayerButton = document.querySelector(".player.button");
+	var round = 0;
 	var playerList = [];
 	var historicalDates = [
 		{
@@ -91,7 +92,7 @@ annoDomini = function() {
 		{
 			date:2011,
 			desc:"Kernschmelze im Atomkraftwerk Fukushima"
-		},
+		}
 	];
 
     /* -------------------- Functions -------------------- */
@@ -172,10 +173,7 @@ annoDomini = function() {
 		};
 		playerList.push(playerObject);
 		
-		//only temporary loop to fill the card stack
-		for (var i = 0; i < 9; i++) {
-			addCard(cardStack, playerObject.cards[i].desc, playerObject.cards[i].date, false);
-		}
+		fillcardStack();
     }
 
     function newTimetable() {
@@ -185,6 +183,13 @@ annoDomini = function() {
 		historicalDates.shift();
         updateCounters();
     }
+	
+	function fillcardStack() {
+		var playerIndex = round % playerList.length;
+		for (var i = 0; i < playerList[playerIndex].cards.length; i++) {
+			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, false);
+		}
+	}
 	
 	function drawCards(amount) {
 		var i, cardList, dateObject;
