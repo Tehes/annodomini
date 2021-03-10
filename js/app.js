@@ -26,6 +26,7 @@ annoDomini = function() {
     var counters = document.querySelectorAll(".counter");
     var infos = document.querySelector("#infos");
     var addPlayerButton = document.querySelector(".player.button");
+	var addStartButton = document.querySelector(".start.button");
 	var round = 0;
 	var playerList = [];
 	var historicalDates = [
@@ -172,8 +173,6 @@ annoDomini = function() {
 			cards: drawCards(9)
 		};
 		playerList.push(playerObject);
-		
-		fillcardStack();
     }
 
     function newTimetable() {
@@ -202,12 +201,18 @@ annoDomini = function() {
 		
 		return cardList;
 	}
+	
+	function startGame() {
+		fillcardStack();
+		updateCounters();
+	}
 
     function init() {
 		historicalDates.shuffle();
         newTimetable();
 
         addPlayerButton.addEventListener("click", addPlayer, false);
+		addStartButton.addEventListener("click", startGame, false);
     }
 
     /* -------------------- Public -------------------- */
