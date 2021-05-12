@@ -7,7 +7,7 @@ annoDomini = function() {
             this.removeChild(this.firstChild);
         }
     };
-	
+
 	Array.prototype.shuffle = function() {
 		var i = this.length;
 		while (i) {
@@ -121,8 +121,15 @@ annoDomini = function() {
     	dragClass: "sortable-drag",  // Class name for the dragging item
         filter: '.fixed', // 'filtered' class is not draggable
 		sort: false, // To disable sorting: set sort to false
-        onAdd: updateCounters // Element is dropped into the list from another list
+        onAdd: function(evt) {
+            endRound(evt);
+        } // Element is dropped into the list from another list
     });
+
+    function endRound(evt) {
+        console.log(evt.item);
+        updateCounters();
+    }
 
     function addCard(el, setDesc, setYear, fixed) {
             var card, p, description, time, year;
@@ -167,7 +174,7 @@ annoDomini = function() {
         playerField.textContent = playerName;
 
         infos.appendChild(playerField);
-		
+
 		playerObject = {
 			name: playerName,
 			cards: drawCards(9)
@@ -177,31 +184,31 @@ annoDomini = function() {
 
     function newTimetable() {
         timeline.empty();
-		
+
         addCard(timeline, historicalDates[0].desc, historicalDates[0].date, true);
 		historicalDates.shift();
         updateCounters();
     }
-	
+
 	function fillcardStack() {
 		var playerIndex = round % playerList.length;
 		for (var i = 0; i < playerList[playerIndex].cards.length; i++) {
 			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, false);
 		}
 	}
-	
+
 	function drawCards(amount) {
 		var i, cardList, dateObject;
-		
+
 		cardList = [];
 		for (i = 0; i < amount; i++) {
 			cardList.push(historicalDates[0]);
 			historicalDates.shift();
 		}
-		
+
 		return cardList;
 	}
-	
+
 	function startGame() {
 		fillcardStack();
 		updateCounters();
