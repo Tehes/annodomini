@@ -90,6 +90,62 @@ annoDomini = function() {
 			date:2002,
 			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
 		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
+        {
+			date:2002,
+			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		},
 		{
 			date:2011,
 			desc:"Kernschmelze im Atomkraftwerk Fukushima"
@@ -127,7 +183,9 @@ annoDomini = function() {
     });
 
     function endRound(evt) {
+        round++;
         console.log(evt.item);
+        fillcardStack();
         updateCounters();
     }
 
@@ -166,8 +224,8 @@ annoDomini = function() {
         var playerName, playerField, playerObject;
 
         playerName = prompt("Bitte gib deinen Namen ein", "Spieler");
-		playerName.trim();
-        if (playerName === null || playerName === "") { return; }
+		if (playerName === null || playerName === "") { return; }
+        playerName.trim();
 
         playerField = document.createElement("span");
         playerField.classList.add("player");
@@ -191,6 +249,7 @@ annoDomini = function() {
     }
 
 	function fillcardStack() {
+        cardStack.empty();
 		var playerIndex = round % playerList.length;
 		for (var i = 0; i < playerList[playerIndex].cards.length; i++) {
 			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, false);
