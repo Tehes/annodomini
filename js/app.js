@@ -183,13 +183,19 @@ annoDomini = function() {
     });
 
     function endRound(evt) {
-        round++;
-        console.log(evt.item);
+		removeCard(evt.item.dataset.index);
+		
+		round++;
         fillcardStack();
         updateCounters();
     }
+	
+	function removeCard(index) {
+		var playerIndex = round % playerList.length;
+		playerList[playerIndex].cards.splice(index, 1);
+	}
 
-    function addCard(el, setDesc, setYear, fixed) {
+    function addCard(el, setDesc, setYear, index, fixed) {
             var card, p, description, time, year;
 
             card = document.createElement("div");
@@ -197,6 +203,9 @@ annoDomini = function() {
             if (fixed === true) {
                 card.classList.add("fixed");
             }
+			if (index !== false) {
+				card.dataset.index = index;
+			}
             p = document.createElement("p");
             description = document.createTextNode(setDesc);
             time = document.createElement("time");
@@ -243,7 +252,7 @@ annoDomini = function() {
     function newTimetable() {
         timeline.empty();
 
-        addCard(timeline, historicalDates[0].desc, historicalDates[0].date, true);
+        addCard(timeline, historicalDates[0].desc, historicalDates[0].date, false, true);
 		historicalDates.shift();
         updateCounters();
     }
@@ -252,7 +261,7 @@ annoDomini = function() {
         cardStack.empty();
 		var playerIndex = round % playerList.length;
 		for (var i = 0; i < playerList[playerIndex].cards.length; i++) {
-			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, false);
+			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, i, false);
 		}
 	}
 
