@@ -39,6 +39,26 @@ annoDomini = function() {
 			desc:"Wilhelm der Eroberer gründet England."
 		},
 		{
+			date:1535,
+			desc:"Heinrich VIII. löst die englische Kirche von Rom und gründet die angelsächsische Staatskirche."
+		},
+		{
+			date:1587,
+			desc:"Maria Stuart wird nach 18-jähriger Gefangenschaft hingerichtet."
+		},
+		{
+			date:1648,
+			desc:"Der Westfälische Frieden beendet den 30-jährigen Krieg."
+		},
+		{
+			date:1675,
+			desc:"Unter dem englischen König Karl II. wird in Greenwich der Nullmeridian festgelegt."
+		},
+		{
+			date:1789,
+			desc:"Französische Revolution"
+		},
+		{
 			date:1804,
 			desc:"Napoleon Bonaparte krönt sich selbst zum Kaiser."
 		},
