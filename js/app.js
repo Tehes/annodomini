@@ -39,16 +39,60 @@ annoDomini = function() {
 			desc:"Wilhelm der Eroberer gründet England."
 		},
 		{
+			date:1804,
+			desc:"Napoleon Bonaparte krönt sich selbst zum Kaiser."
+		},
+		{
+			date:1815,
+			desc:"Napoleons Rückkehr und Niederlage bei Waterloo."
+		},
+		{
+			date:1820,
+			desc:"In den USA wird nördlich des 36. Breitengrades die Sklaverei verboten."
+		},
+		{
+			date:1846,
+			desc:"Ida Pfeiffer geht als erste Frau allein auf Weltreise."
+		},
+		{
+			date:1867,
+			desc:"Die USA kaufen Alaska für 7,2 Millionen Dollar von Russland."
+		},
+		{
+			date:1893,
+			desc:"Als erstes Land der Welt führt Neuseeland das Frauenwahlrecht ein."
+		},
+		{
 			date:1914,
 			desc:"Beginn des 1. Weltkriegs"
+		},
+		{
+			date:1917,
+			desc:"Oktoberrevolution in Russland: Lenin übernimmt die Macht."
+		},
+		{
+			date:1918,
+			desc:"Ausbruch der spanischen Grippe"
+		},
+		{
+			date:1919,
+			desc:"Beginn der Prohibition in den USA"
 		},
 		{
 			date:1929,
 			desc:"Beginn Weltwirtschaftskrise"
 		},
 		{
+			date:1933,
+			desc:"Nach dem Wahlerfolg der NSDAP wird Hitler zum Reichskanzler ernannt."
+		},
+		{
 			date:1939,
 			desc:"Beginn des 2. Weltkriegs"
+		},
+		{
+			date:1959,
+			desc:"Che Guevara und Fidel Castro putschen in Kuba gegen Diktator Batista."
 		},
 		{
 			date:1961,
@@ -63,8 +107,20 @@ annoDomini = function() {
 			desc:"Vietnam-Krieg"
 		},
 		{
+			date:1968,
+			desc:"Der schwarze Bürgerrechtler Martin Luther King wird ermordet."
+		},
+		{
 			date:1969,
 			desc:"Neil Armstrong betritt am 21. Juli als erster Mensch den Mond."
+		},
+		{
+			date:1974,
+			desc:"US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
+		},
+		{
+			date:1982,
+			desc:"Argentinien besetzt die britischen Falkland-Inseln."
 		},
 		{
 			date:1985,
@@ -83,64 +139,16 @@ annoDomini = function() {
 			desc:"Michael Schumacher wird erstmals Formel 1 Weltmeister."
 		},
 		{
-			date:2001,
-			desc:"Anschläge auf World Trade Center"
+			date:1996,
+			desc:"Das walisische Bergschaf „Dolly“ wird zum ersten geklonten Säugetier."
 		},
 		{
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+			date:1996,
+			desc:"In Großbritannien bricht die BSE-Krise aus."
 		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
-		},
-        {
-			date:2002,
-			desc:"In Europa wird der Euro als Zahlungsmittel eingeführt."
+		{
+			date:2001,
+			desc:"Anschläge auf World Trade Center"
 		},
         {
 			date:2002,
@@ -151,6 +159,7 @@ annoDomini = function() {
 			desc:"Kernschmelze im Atomkraftwerk Fukushima"
 		}
 	];
+	console.log("Anzahl historischer Ereignisse: "+historicalDates.length)
 
     /* -------------------- Functions -------------------- */
 
