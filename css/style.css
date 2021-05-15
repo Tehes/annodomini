@@ -29,7 +29,7 @@ h2 {
 }
 
 #infos {
-    margin: 30px 15px 50px 15px;
+    margin: 30px 15px 15px 15px;
 }
 
 .player {
@@ -45,7 +45,7 @@ h2 {
     background-color: #2B3648 !important;
     border: 1px solid #ecebe8;
     padding: 10px;
-    margin: 15px 0 0 0;
+    margin: 0 15px 30px 15px;
     border-radius: 5px;
     font-size: 0.8em;
 	display: block;

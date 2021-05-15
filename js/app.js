@@ -321,6 +321,7 @@ annoDomini = function() {
 	function startGame() {
 		fillcardStack();
 		updateCounters();
+		//addPlayerButton.parentNode.removeChild(addPlayerButton);
 	}
 
     function init() {
