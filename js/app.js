@@ -25,9 +25,9 @@ annoDomini = function() {
     var timeline = document.querySelector("#timeline");
     var counters = document.querySelectorAll(".counter");
     var infos = document.querySelector("#infos");
-    var addPlayerButton = document.querySelector(".player.button");
-    var addStartButton = document.querySelector(".start.button");
-    var addSolveButton = document.querySelector(".solve.button");
+    var addPlayerButton = document.querySelector(".addPlayer");
+    var addStartButton = document.querySelector(".start");
+    var addSolveButton = document.querySelector(".gosolve");
     var round = 0;
     var playerList = [];
     var historicalDates = [{
@@ -298,7 +298,7 @@ annoDomini = function() {
         title.textContent = playerList[playerIndex].name + suffix + " Karten";
 
         // highlight active player in player buttons
-        var playerSpans = document.querySelectorAll("button ~ .player");
+        var playerSpans = document.querySelectorAll(".player");
         var previousIndex = (playerIndex === 0) ? playerSpans.length-1 : playerIndex-1;
         playerSpans[playerIndex].classList.add("active");
         playerSpans[previousIndex].classList.remove("active");
@@ -327,9 +327,9 @@ annoDomini = function() {
     }
 
     function startGame() {
-        fillcardStack();
+        addPlayerButton.parentNode.removeChild(addPlayerButton);
+		fillcardStack();
         updateCounters();
-        //addPlayerButton.parentNode.removeChild(addPlayerButton);
     }
 
     function endRound(evt) {
