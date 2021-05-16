@@ -308,7 +308,7 @@ annoDomini = function() {
 		}
 		title = document.querySelector("#cardStackTitle");
 		lastChar = playerList[playerIndex].name.slice(-1);
-		suffix = (lastChar === "s") ? "'" : "s";
+		suffix = (lastChar === "s") ? "\u0027" : "s";
 		title.textContent = playerList[playerIndex].name + suffix +" Karten";
 	}
 
