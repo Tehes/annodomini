@@ -263,10 +263,16 @@ annoDomini = function() {
     function updateCounters() {
         var timelineItems, cardStackItems;
 
+        //update Counters
         timelineItems = document.querySelectorAll("#timeline .card");
         cardStackItems = document.querySelectorAll("#cardStack .card");
         counters[0].textContent = "(" + timelineItems.length + ")";
         counters[1].textContent = "(" + cardStackItems.length + ")";
+
+        //update h2 of cardStack
+
+        //highlght active player span
+
     }
 
     function addPlayer() {
@@ -307,10 +313,17 @@ annoDomini = function() {
         for (i = 0; i < playerList[playerIndex].cards.length; i++) {
             addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, i, false);
         }
+        // Show active Player in title of cardStack
         title = document.querySelector("#cardStackTitle");
         lastChar = playerList[playerIndex].name.slice(-1);
         suffix = (lastChar === "s") ? "\u0027" : "s";
         title.textContent = playerList[playerIndex].name + suffix + " Karten";
+
+        // highlight active player in player buttons
+        var playerSpans = document.querySelectorAll("button ~ .player");
+        var previousIndex = (playerIndex === 0) ? playerSpans.length-1 : playerIndex-1;
+        playerSpans[playerIndex].classList.add("active");
+        playerSpans[previousIndex].classList.remove("active");
     }
 
     function drawCards(amount) {

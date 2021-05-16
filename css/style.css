@@ -41,6 +41,10 @@ h2 {
     font-size: 0.8em;
 }
 
+.active {
+    color:#edb819;
+}
+
 .start {
     background-color: #2B3648 !important;
     border: 1px solid #ecebe8;
