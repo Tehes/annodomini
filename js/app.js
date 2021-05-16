@@ -27,6 +27,7 @@ annoDomini = function() {
     var infos = document.querySelector("#infos");
     var addPlayerButton = document.querySelector(".player.button");
     var addStartButton = document.querySelector(".start.button");
+    var addSolveButton = document.querySelector(".solve.button");
     var round = 0;
     var playerList = [];
     var historicalDates = [{
@@ -222,19 +223,6 @@ annoDomini = function() {
         } // Element is dropped into the list from another list
     });
 
-    function endRound(evt) {
-        removeCard(evt.item.dataset.index);
-
-        round++;
-        fillcardStack();
-        updateCounters();
-    }
-
-    function removeCard(index) {
-        var playerIndex = round % playerList.length;
-        playerList[playerIndex].cards.splice(index, 1);
-    }
-
     function addCard(el, setDesc, setYear, index, fixed) {
         var card, p, description, time, year;
 
@@ -260,19 +248,9 @@ annoDomini = function() {
         el.appendChild(card);
     }
 
-    function updateCounters() {
-        var timelineItems, cardStackItems;
-
-        //update Counters
-        timelineItems = document.querySelectorAll("#timeline .card");
-        cardStackItems = document.querySelectorAll("#cardStack .card");
-        counters[0].textContent = "(" + timelineItems.length + ")";
-        counters[1].textContent = "(" + cardStackItems.length + ")";
-
-        //update h2 of cardStack
-
-        //highlght active player span
-
+    function removeCard(index) {
+        var playerIndex = round % playerList.length;
+        playerList[playerIndex].cards.splice(index, 1);
     }
 
     function addPlayer() {
@@ -338,10 +316,37 @@ annoDomini = function() {
         return cardList;
     }
 
+    function updateCounters() {
+        var timelineItems, cardStackItems;
+
+        //update Counters
+        timelineItems = document.querySelectorAll("#timeline .card");
+        cardStackItems = document.querySelectorAll("#cardStack .card");
+        counters[0].textContent = "(" + timelineItems.length + ")";
+        counters[1].textContent = "(" + cardStackItems.length + ")";
+    }
+
     function startGame() {
         fillcardStack();
         updateCounters();
         //addPlayerButton.parentNode.removeChild(addPlayerButton);
+    }
+
+    function endRound(evt) {
+        removeCard(evt.item.dataset.index);
+
+        round++;
+        fillcardStack();
+        updateCounters();
+    }
+
+    function solve() {
+        var i;
+        var timelineItems = document.querySelectorAll("#timeline .card");
+
+        for (i = 0; i < timelineItems.length; i++) {
+            timelineItems[i].classList.add("solve");
+        }
     }
 
     function init() {
@@ -350,6 +355,7 @@ annoDomini = function() {
 
         addPlayerButton.addEventListener("click", addPlayer, false);
         addStartButton.addEventListener("click", startGame, false);
+        addSolveButton.addEventListener("click", solve, false);
     }
 
     /* -------------------- Public -------------------- */
