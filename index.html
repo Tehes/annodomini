@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>Anno Domini</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8" />
+	<meta name="description" content="Eine Umsetzung des Brettspiels Anno Domini" />
+	<meta name="keywords" content="Anno Domini, board game, Brettspiel" />
+	<meta name="author" content="Tino Sabetta" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Favicon -->
+	<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" media="screen" />
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>Anno Domini</header>
+
+	<h2>Spieler</h2>
+	<div id="infos">
+		<!-- <span class="player">Fabian</span>
+		<span class="player">Falk</span>
+		<span class="player">Milton</span>
+		<span class="player">Tobi</span>
+		<span class="player">Tino</span> -->
+		<button class="player button">Spieler hinzufügen</button>
+	</div>
+	<button class="start button">Spiel starten</button>
+
+	<div id="timeline_container">
+		<h2>Zeitleiste</h2><span class="counter">(x)</span>
+		<div id="timeline">
+			<!-- <div class="card fixed">
+				<p>Neil Armstrong betritt am 21. Juli als erster Mensch den Mond</p>
+				<time datetime="1969">1969</time>
+			</div> -->
+		</div>
+	</div>
+
+	<h2 id="cardStackTitle">Meine Karten</h2><span class="counter">(x)</span>
+	<div id="cardStack">
+		<!-- <div class="card">
+			<p>Neil Armstrong betritt als erster Mensch den Mond</p>
+			<time datetime="1969">1969</time>
+		</div> -->
+	</div>
+	<script src="js/sortable.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
