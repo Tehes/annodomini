@@ -17,7 +17,7 @@ annoDomini = function() {
             this[j] = t;
         }
         return this;
-    }
+    };
 
     /* -------------------- Variables -------------------- */
 
@@ -183,14 +183,14 @@ annoDomini = function() {
         },
         {
             date: 2016,
-            desc: "Ein Tunesier steuert einen gestohlenen LKW in den gut besuchten Berliner Weihnachtsmarkt an der Gedächtniskirche."
+            desc: "Ein gestohlener LKW fährt in den gut besuchten Berliner Weihnachtsmarkt an der Gedächtniskirche."
         },
         {
             date: 2018,
             desc: "Die Schwedin Greta Thunberg demonstriert erstmals gegen die Folgen des Klimawandels."
         }
     ];
-    console.log("Anzahl historischer Ereignisse: " + historicalDates.length)
+    console.log("Anzahl historischer Ereignisse: " + historicalDates.length);
 
     /* -------------------- Functions -------------------- */
 
