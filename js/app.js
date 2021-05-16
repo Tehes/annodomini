@@ -299,11 +299,17 @@ annoDomini = function() {
     }
 
 	function fillcardStack() {
+		var playerIndex, i, title, lastChar, suffix;
+		
         cardStack.empty();
-		var playerIndex = round % playerList.length;
-		for (var i = 0; i < playerList[playerIndex].cards.length; i++) {
+		playerIndex = round % playerList.length;
+		for (i = 0; i < playerList[playerIndex].cards.length; i++) {
 			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, i, false);
 		}
+		title = document.querySelector("#cardStackTitle");
+		lastChar = playerList[playerIndex].name.slice(-1);
+		suffix = (lastChar === "s") ? "'" : "s";
+		title.textContent = playerList[playerIndex].name + suffix +" Karten";
 	}
 
 	function drawCards(amount) {
