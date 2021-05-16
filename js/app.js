@@ -306,10 +306,10 @@ annoDomini = function() {
 		for (i = 0; i < playerList[playerIndex].cards.length; i++) {
 			addCard(cardStack, playerList[playerIndex].cards[i].desc, playerList[playerIndex].cards[i].date, i, false);
 		}
-		title = document.querySelector("#cardStackTitle");
-		lastChar = playerList[playerIndex].name.slice(-1);
-		suffix = (lastChar === "s") ? "\u0027" : "s";
-		title.textContent = playerList[playerIndex].name + suffix +" Karten";
+		// title = document.querySelector("#cardStackTitle");
+		// lastChar = playerList[playerIndex].name.slice(-1);
+		// suffix = (lastChar === "s") ? "\u0027" : "s";
+		// title.textContent = playerList[playerIndex].name + suffix +" Karten";
 	}
 
 	function drawCards(amount) {
