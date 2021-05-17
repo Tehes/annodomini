@@ -28,6 +28,12 @@ h2 {
     color: #edb819;
 }
 
+.result {
+	font-size: 0.9em;
+	margin-left: 10px;
+	color: #999;
+}
+
 #infos {
     margin: 15px 15px 15px 15px;
 	display: flex;
@@ -136,6 +142,10 @@ h2 {
     font-size: 2em;
     color: #edb819;
     margin-top: 10px;
+}
+
+.card.solve time.false {
+	color: #ff624f;
 }
 
 #cardStack {

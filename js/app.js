@@ -343,10 +343,26 @@ annoDomini = function() {
     function solve() {
         var i;
         var timelineItems = document.querySelectorAll("#timeline .card");
+		var dates = document.querySelectorAll("#timeline .card time");
+		var min = parseInt(dates[0].textContent);
 
         for (i = 0; i < timelineItems.length; i++) {
             timelineItems[i].classList.add("solve");
+			if (parseInt(dates[i].textContent) >= min) {
+				min = parseInt(dates[i].textContent);
+			}
+			else {
+				dates[i].classList.add("false");
+			}
         }
+		var mistakes = document.querySelectorAll("#timeline .card time.false");
+		var result = document.querySelector(".result");
+		if (mistakes.length > 0) {
+			result.textContent = mistakes.length + " Fehler";
+		}
+		else {
+			result.textContent = "Alles richtig";
+		}
     }
 
     function init() {
