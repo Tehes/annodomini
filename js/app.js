@@ -25,6 +25,7 @@ annoDomini = function() {
     var timeline = document.querySelector("#timeline");
     var counters = document.querySelectorAll(".counter");
     var infos = document.querySelector("#infos");
+	var result = document.querySelector(".result");
     var addPlayerButton = document.querySelector(".addPlayer");
     var addStartButton = document.querySelector(".start");
     var addSolveButton = document.querySelector(".gosolve");
@@ -110,6 +111,10 @@ annoDomini = function() {
             date: 1939,
             desc: "Beginn des 2. Weltkriegs"
         },
+		{
+            date: 1953,
+            desc: "Erstbesteigung des Mount Everest"
+        },
         {
             date: 1959,
             desc: "Che Guevara und Fidel Castro putschen in Kuba gegen Diktator Batista."
@@ -121,6 +126,10 @@ annoDomini = function() {
         {
             date: 1962,
             desc: "Kuba Krise"
+        },
+		{
+            date: 1963,
+            desc: "Tödliches Attentat auf John F. Kennedy"
         },
         {
             date: 1964,
@@ -277,6 +286,7 @@ annoDomini = function() {
 
     function newTimetable() {
         timeline.empty();
+		result.textContent = "";
 
         addCard(timeline, historicalDates[0].desc, historicalDates[0].date, false, true);
         historicalDates.shift();
@@ -284,7 +294,7 @@ annoDomini = function() {
     }
 
     function fillcardStack() {
-        var playerIndex, i, title, lastChar, suffix;
+        var playerIndex, i, title, lastChar, suffix, playerSpans, previousIndex;
 
         cardStack.empty();
         playerIndex = round % playerList.length;
@@ -298,8 +308,8 @@ annoDomini = function() {
         title.textContent = playerList[playerIndex].name + suffix + " Karten";
 
         // highlight active player in player buttons
-        var playerSpans = document.querySelectorAll(".player");
-        var previousIndex = (playerIndex === 0) ? playerSpans.length-1 : playerIndex-1;
+        playerSpans = document.querySelectorAll(".player");
+        previousIndex = (playerIndex === 0) ? playerSpans.length-1 : playerIndex-1;
         playerSpans[playerIndex].classList.add("active");
         playerSpans[previousIndex].classList.remove("active");
     }
@@ -327,9 +337,21 @@ annoDomini = function() {
     }
 
     function startGame() {
-        addPlayerButton.parentNode.removeChild(addPlayerButton);
-		fillcardStack();
-        updateCounters();
+        if (playerList.length >= 2) {
+		
+			if (document.body.contains(addPlayerButton)) {
+				console.log(addPlayerButton.textContent);
+				addPlayerButton.parentNode.removeChild(addPlayerButton);
+			}
+			newTimetable();
+			fillcardStack();
+        	updateCounters();
+			addSolveButton.addEventListener("click", solve, false);
+			this.textContent = "Neue Runde";
+		}
+		else {
+			alert("Es werden mindestens 2 Spieler benötigt.");
+		}
     }
 
     function endRound(evt) {
@@ -341,10 +363,11 @@ annoDomini = function() {
     }
 
     function solve() {
-        var i;
-        var timelineItems = document.querySelectorAll("#timeline .card");
-		var dates = document.querySelectorAll("#timeline .card time");
-		var min = parseInt(dates[0].textContent);
+        var i, timelineItems, dates, min, mistakes, playerIndex, previousIndex;
+		
+        timelineItems = document.querySelectorAll("#timeline .card");
+		dates = document.querySelectorAll("#timeline .card time");
+		min = parseInt(dates[0].textContent);
 
         for (i = 0; i < timelineItems.length; i++) {
             timelineItems[i].classList.add("solve");
@@ -355,23 +378,26 @@ annoDomini = function() {
 				dates[i].classList.add("false");
 			}
         }
-		var mistakes = document.querySelectorAll("#timeline .card time.false");
-		var result = document.querySelector(".result");
+		mistakes = document.querySelectorAll("#timeline .card time.false");
+		playerIndex = round % playerList.length;
+		previousIndex = (playerIndex === 0) ? playerList.length-1 : playerIndex-1;
 		if (mistakes.length > 0) {
-			result.textContent = mistakes.length + " Fehler";
+			result.textContent = playerList[previousIndex].name + " nimmt 3 Karten auf";
+			playerList[previousIndex].cards.push(drawCards(3));
 		}
 		else {
-			result.textContent = "Alles richtig";
+			result.textContent = playerList[playerIndex].name + " nimmt 2 Karten auf";
+			playerList[playerIndex].cards.push(drawCards(2));
+			round++;
 		}
+		cardStack.empty();
     }
 
     function init() {
         historicalDates.shuffle();
-        newTimetable();
 
         addPlayerButton.addEventListener("click", addPlayer, false);
         addStartButton.addEventListener("click", startGame, false);
-        addSolveButton.addEventListener("click", solve, false);
     }
 
     /* -------------------- Public -------------------- */
