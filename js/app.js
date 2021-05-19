@@ -258,8 +258,11 @@ annoDomini = function() {
     }
 
     function removeCard(index) {
+		console.log(historicalDates.length);
         var playerIndex = round % playerList.length;
-        playerList[playerIndex].cards.splice(index, 1);
+        var removed = playerList[playerIndex].cards.splice(index, 1);
+		historicalDates.push(removed);
+		console.log(historicalDates.length);
     }
 
     function addPlayer() {
@@ -340,7 +343,6 @@ annoDomini = function() {
         if (playerList.length >= 2) {
 		
 			if (document.body.contains(addPlayerButton)) {
-				console.log(addPlayerButton.textContent);
 				addPlayerButton.parentNode.removeChild(addPlayerButton);
 			}
 			newTimetable();
@@ -383,14 +385,16 @@ annoDomini = function() {
 		previousIndex = (playerIndex === 0) ? playerList.length-1 : playerIndex-1;
 		if (mistakes.length > 0) {
 			result.textContent = playerList[previousIndex].name + " nimmt 3 Karten auf";
-			playerList[previousIndex].cards.push(drawCards(3));
+			playerList[previousIndex].cards = playerList[previousIndex].cards.concat(drawCards(3));
 		}
 		else {
 			result.textContent = playerList[playerIndex].name + " nimmt 2 Karten auf";
-			playerList[playerIndex].cards.push(drawCards(2));
+			playerList[playerIndex].cards = playerList[playerIndex].cards.concat(drawCards(2));
+			console.log(playerList[playerIndex].cards);
 			round++;
 		}
 		cardStack.empty();
+		addSolveButton.removeEventListener("click", solve, false);
     }
 
     function init() {
