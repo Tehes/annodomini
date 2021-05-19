@@ -292,7 +292,7 @@ annoDomini = function() {
 		result.textContent = "";
 
         addCard(timeline, historicalDates[0].desc, historicalDates[0].date, false, true);
-        historicalDates.shift();
+        historicalDates.push(historicalDates.shift());
         updateCounters();
     }
 
@@ -390,7 +390,6 @@ annoDomini = function() {
 		else {
 			result.textContent = playerList[playerIndex].name + " nimmt 2 Karten auf";
 			playerList[playerIndex].cards = playerList[playerIndex].cards.concat(drawCards(2));
-			console.log(playerList[playerIndex].cards);
 			round++;
 		}
 		cardStack.empty();
