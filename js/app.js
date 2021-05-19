@@ -31,13 +31,26 @@ annoDomini = function() {
     var addSolveButton = document.querySelector(".gosolve");
     var round = 0;
     var playerList = [];
-    var historicalDates = [{
+    var historicalDates = [
+		{
+            date: 1066,
+            desc: "Wilhelm der Eroberer gründet England."
+        },
+		{
+            date: 1440,
+            desc: "Johannes Gutenberg entwickelt den Buchdruck."
+        },
+		{
             date: 1492,
             desc: "Kolumbus entdeckt Amerika."
         },
-        {
-            date: 1066,
-            desc: "Wilhelm der Eroberer gründet England."
+		{
+            date: 1516,
+            desc: "Das deutsche Reinheitsgebot wird festgelegt."
+        },
+		{
+            date: 1517,
+            desc: "Der Augustinermönch Martin Luther formuliert die Reformationsthesen."
         },
         {
             date: 1535,
@@ -50,6 +63,10 @@ annoDomini = function() {
         {
             date: 1648,
             desc: "Der Westfälische Frieden beendet den 30-jährigen Krieg."
+        },
+		{
+            date: 1650,
+            desc: "Der Naturwissenschaftler Otto von Guericke weist die Existenz des Vakuums nach."
         },
         {
             date: 1675,
@@ -71,21 +88,113 @@ annoDomini = function() {
             date: 1820,
             desc: "In den USA wird nördlich des 36. Breitengrades die Sklaverei verboten."
         },
+		{
+            date: 1821,
+            desc: "Christian Buschmann erfindet die Mundharmonika."
+        },
+		{
+            date: 1843,
+            desc: "Friedrich Gottlob Keller erfindet den Papier-Rohstoff."
+        },
         {
             date: 1846,
             desc: "Ida Pfeiffer geht als erste Frau allein auf Weltreise."
+        },
+		{
+            date: 1854,
+            desc: "Heinrich Göbel entwickelt die erste Glühbirne noch vor Thomas Edison."
+        },
+		{
+            date: 1859,
+            desc: "Johann Philipp Reis erfindet das Telefon."
+        },
+		{
+            date: 1864,
+            desc: "Der deutsche Chemiker Justus Lothar Meyer entwickelt das Periodensystem."
+        },
+		{
+            date: 1866,
+            desc: "Werner von Siemens erfindet den Dynamo."
         },
         {
             date: 1867,
             desc: "Die USA kaufen Alaska für 7,2 Millionen Dollar von Russland."
         },
+		{
+            date: 1873,
+            desc: "Levi Strauss erfindet die Jeans."
+        },
+		{
+            date: 1876,
+            desc: "Robert Koch begründet mit der Bakteriologie einen neuen Zweig der Wissenschaft."
+        },
+		{
+            date: 1879,
+            desc: "Werner von Siemens erfindet die Straßenbahn"
+        },
+		{
+            date: 1879,
+            desc: "Felix Hoffmann erfindet das Aspirin."
+        },
+		{
+            date: 1883,
+            desc: "Reichskanzler Otto von Bismarck initiiert die deutschen Sozialgesetze."
+        },
+		{
+            date: 1885,
+            desc: "Gottlieb Daimler erfindet das Motorrad."
+        },
+		{
+            date: 1887,
+            desc: "Emil Berliner erfindet den Plattenspieler."
+        },
+		{
+            date: 1886,
+            desc: "Das Automobil wird zum Patent angemeldet."
+        },
+		{
+            date: 1890,
+            desc: "Rudolf Diesel erfindet den Dieselmotor."
+        },
+		{
+            date: 1894,
+            desc: "Otto Lilienthal steuert die ersten Gleitflugzeuge."
+        },
         {
             date: 1893,
             desc: "Als erstes Land der Welt führt Neuseeland das Frauenwahlrecht ein."
         },
+		{
+            date: 1895,
+            desc: "Entdeckung der Röntgenstrahlung durch den Physiker Wilhelm Röntgen."
+        },
+		{
+            date: 1902,
+            desc: "Robert Bosch erfindet die Zündkerze."
+        },
+		{
+            date: 1903,
+            desc: "Der Glastechniker Reinhold Burger erfindet die Thermosflasche."
+        },
+		{
+            date: 1905,
+            desc: "Josf Schmidt erfindet das Brettspiel Mensch ärgere dich nicht."
+        },
+		{
+            date: 1907,
+            desc: "Ottomar Heinsius von Mayenburg erfindet die Zahnpasta."
+        },
+		{
+            date: 1908,
+            desc: "Melitta Bentz erfindet den Kaffeefilter."
+        },
         {
             date: 1914,
             desc: "Beginn des 1. Weltkriegs"
+        },
+		{
+            date: 1915,
+            desc: "Albert Einstein entwickelt die Relativitätstheorie."
         },
         {
             date: 1917,
@@ -99,29 +208,93 @@ annoDomini = function() {
             date: 1919,
             desc: "Beginn der Prohibition in den USA"
         },
+		{
+            date: 1922,
+            desc: "Hans Riegel erfindet das Goldbärchen."
+        },
+		{
+            date: 1925,
+            desc: "Oskar Barnack erfindet die Kleinbildkamera."
+        },
+		{
+            date: 1928,
+            desc: "Fritz Pfleumer erfindet das Tonband."
+        },
+		{
+            date: 1928,
+            desc: "Alexander Fleming entdeckt zufällig das Penicillin"
+        },
         {
             date: 1929,
             desc: "Beginn Weltwirtschaftskrise"
         },
+		{
+            date: 1929,
+            desc: "Adolf Rambold erfindet den Teebeutel."
+        },
+		{
+            date: 1930,
+            desc: "Der deutsche Forscher Manfred von Ardenne erfindet das Fernsehen."
+        },
         {
             date: 1933,
             desc: "Nach dem Wahlerfolg der NSDAP wird Hitler zum Reichskanzler ernannt."
+        },
+		{
+            date: 1934,
+            desc: "Hermann Kemper erfindet die Magnetschwebebahn."
+        },
+		{
+            date: 1936,
+            desc: "Hans von Ohain erfindet das Düsentriebwerk."
+        },
+		{
+            date: 1936,
+            desc: "Der Ingenieur Henrich Focke erfindet den Hubschrauber."
+        },
+		{
+            date: 1938,
+            desc: "Otto Hahn erfindet die Kernspaltung."
         },
         {
             date: 1939,
             desc: "Beginn des 2. Weltkriegs"
         },
 		{
+            date: 1941,
+            desc: "Konrad Zuse entwickelte den ersten programmierbaren Rechner."
+        },
+		{
+            date: 1949,
+            desc: "Herta Heuwer erfindet die Currywurst."
+        },
+		{
+            date: 1951,
+            desc: "Der Elektrotechniker Rudolf Hell erfindet den Scanner."
+        },
+		{
+            date: 1953,
+            desc: "Adolf Dassler erfindet den Stollenschuh."
+        },
+		{
             date: 1953,
             desc: "Erstbesteigung des Mount Everest"
+        },
+		{
+            date: 1958,
+            desc: "Artur Fischer erfindet den Dübel."
         },
         {
             date: 1959,
             desc: "Che Guevara und Fidel Castro putschen in Kuba gegen Diktator Batista."
         },
-        {
+		{
             date: 1961,
             desc: "Bau der Berliner Mauer"
+        },
+        {
+            date: 1961,
+            desc: "Die Schering AG erfindet die Antibabypille."
         },
         {
             date: 1962,
@@ -143,6 +316,18 @@ annoDomini = function() {
             date: 1969,
             desc: "Neil Armstrong betritt am 21. Juli als erster Mensch den Mond."
         },
+		{
+            date: 1969,
+            desc: "Die Chipkarte macht erstmals bargeldloses Zahlen möglich."
+        },
+		{
+            date: 1969,
+            desc: "Mit dem Arpanet nimmt der Vorläufer des Internets seinen Betrieb auf."
+        },
+		{
+            date: 1971,
+            desc: "Mercedes Benz erfindet den Airbag."
+        },
         {
             date: 1974,
             desc: "US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
@@ -159,9 +344,17 @@ annoDomini = function() {
             date: 1986,
             desc: "Kernschmelze im Atomkraftwerk Tschernobyl"
         },
+		{
+            date: 1988,
+            desc: "Das Fraunhofer Institut entwickelt das MP3-Format."
+        },
         {
             date: 1989,
             desc: "Fall der Mauer und Öffnung aller DDR-Grenzen nach Westen."
+        },
+		{
+            date: 1991,
+            desc: "Die Junghans AG erfindet die Funkarmbanduhr."
         },
         {
             date: 1994,
@@ -198,6 +391,10 @@ annoDomini = function() {
         {
             date: 2018,
             desc: "Die Schwedin Greta Thunberg demonstriert erstmals gegen die Folgen des Klimawandels."
+        },
+		{
+            date: 2019,
+            desc: "Das Coronavirus SARS-CoV-2 wird erstmalig in China beim Menschen nachgewiesen."
         }
     ];
     console.log("Anzahl historischer Ereignisse: " + historicalDates.length);
@@ -258,11 +455,11 @@ annoDomini = function() {
     }
 
     function removeCard(index) {
-		console.log(historicalDates.length);
-        var playerIndex = round % playerList.length;
-        var removed = playerList[playerIndex].cards.splice(index, 1);
+		var playerIndex, removed;
+        
+		playerIndex = round % playerList.length;
+        removed = playerList[playerIndex].cards.splice(index, 1);
 		historicalDates.push(removed);
-		console.log(historicalDates.length);
     }
 
     function addPlayer() {
