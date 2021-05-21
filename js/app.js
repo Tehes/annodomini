@@ -145,12 +145,16 @@ annoDomini = function() {
             desc: "Gottlieb Daimler erfindet das Motorrad."
         },
 		{
-            date: 1887,
-            desc: "Emil Berliner erfindet den Plattenspieler."
+            date: 1895,
+            desc: "In Chicago wird der erste Wolkenkratzer der Welt fertiggestellt."
         },
 		{
             date: 1886,
             desc: "Das Automobil wird zum Patent angemeldet."
+        },
+		{
+            date: 1887,
+            desc: "Emil Berliner erfindet den Plattenspieler."
         },
 		{
             date: 1890,
@@ -211,6 +215,10 @@ annoDomini = function() {
 		{
             date: 1922,
             desc: "Hans Riegel erfindet das Goldbärchen."
+        },
+		{
+            date: 1922,
+            desc: "Mit Power of Love erscheint der erste kommerzielle 3D-Film."
         },
 		{
             date: 1925,
@@ -281,8 +289,16 @@ annoDomini = function() {
             desc: "Erstbesteigung des Mount Everest"
         },
 		{
+            date: 1957,
+            desc: "Die UdSSR schickt mit »Sputnik 1« den ersten künstlichen Satelliten ins Weltall."
+        },
+		{
             date: 1958,
             desc: "Artur Fischer erfindet den Dübel."
+        },
+		{
+            date: 1958,
+            desc: "Volvo entwickelt den Sicherheitsgurt."
         },
         {
             date: 1959,
@@ -291,6 +307,10 @@ annoDomini = function() {
 		{
             date: 1961,
             desc: "Bau der Berliner Mauer"
+        },
+		{
+            date: 1961,
+            desc: "Der sowjetische Kosmonaut Juri Gagarin ist der erste Mensch im Weltall."
         },
         {
             date: 1961,
@@ -332,6 +352,14 @@ annoDomini = function() {
             date: 1974,
             desc: "US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
         },
+		{
+            date: 1977,
+            desc: "Das erste durch In-Vitro-Fertilisation gezeugte Baby wird geboren."
+        },
+		{
+            date: 1979,
+            desc: "Ursula Buchfellner schafft es als erstes deutsches Playmate in den US-amerikanischen Playboy."
+        },
         {
             date: 1982,
             desc: "Argentinien besetzt die britischen Falkland-Inseln."
@@ -356,6 +384,10 @@ annoDomini = function() {
             date: 1991,
             desc: "Die Junghans AG erfindet die Funkarmbanduhr."
         },
+		{
+            date: 1992,
+            desc: "Die weltweit erste SMS wird vesendet. Text: Merry Christmas!"
+        },
         {
             date: 1994,
             desc: "Michael Schumacher wird erstmals Formel 1 Weltmeister."
@@ -368,6 +400,10 @@ annoDomini = function() {
             date: 1996,
             desc: "In Großbritannien bricht die BSE-Krise aus."
         },
+		{
+            date: 1999,
+            desc: "Die Geburt der Emojis"
+        },
         {
             date: 2001,
             desc: "Anschläge auf World Trade Center"
@@ -376,9 +412,25 @@ annoDomini = function() {
             date: 2002,
             desc: "In Europa wird der Euro als Zahlungsmittel eingeführt."
         },
+		{
+            date: 2005,
+            desc: "Auf Youtube wird das erste Video hochgeladen."
+        },
+		{
+            date: 2007,
+            desc: "Mit dem iPhone wird das erste Smartphone mit Multi-Touch-Screen vorgestellt."
+        },
         {
             date: 2011,
             desc: "Kernschmelze im Atomkraftwerk Fukushima"
+        },
+		{
+            date: 2012,
+            desc: "Die Existenz des Higgs Bosons wird am Cern nachgewiesen."
+        },
+		{
+            date: 2014,
+            desc: "Die erste erfolgreiche Penis-Transplantation der Welt."
         },
         {
             date: 2015,
