@@ -93,6 +93,10 @@ annoDomini = function() {
             desc: "Christian Buschmann erfindet die Mundharmonika."
         },
 		{
+            date: 1825,
+            desc: "König Ludwig I. von Baiern legt fest, dass man sein Land in Zukunft mit Y schreiben sollte."
+        },
+		{
             date: 1843,
             desc: "Friedrich Gottlob Keller erfindet den Papier-Rohstoff."
         },
@@ -261,6 +265,10 @@ annoDomini = function() {
             desc: "Der Ingenieur Henrich Focke erfindet den Hubschrauber."
         },
 		{
+            date: 1937,
+            desc: "Bis zu diesem Jahr hatten Liechtenstein und Haiti die gleiche Fahne."
+        },
+		{
             date: 1938,
             desc: "Otto Hahn erfindet die Kernspaltung."
         },
@@ -287,6 +295,10 @@ annoDomini = function() {
 		{
             date: 1953,
             desc: "Erstbesteigung des Mount Everest"
+        },
+		{
+            date: 1956,
+            desc: "Die erste Ausgabe der Jugend-Zeitschrift Bravo erscheint."
         },
 		{
             date: 1957,
@@ -364,6 +376,10 @@ annoDomini = function() {
             date: 1982,
             desc: "Argentinien besetzt die britischen Falkland-Inseln."
         },
+		{
+            date: 1982,
+            desc: "Ein bischen Frieden gewinnt als erster deutscher Beitrag den ESC."
+        },
         {
             date: 1985,
             desc: "Boris Becker wird der erste deutsche und der jüngste Wimbledon-Sieger aller Zeiten."
@@ -404,6 +420,10 @@ annoDomini = function() {
             date: 1999,
             desc: "Die Geburt der Emojis"
         },
+		{
+            date: 2000,
+            desc: "An der Börse platzt die sogenannte Dotcom-Blase"
+        },
         {
             date: 2001,
             desc: "Anschläge auf World Trade Center"
@@ -419,6 +439,14 @@ annoDomini = function() {
 		{
             date: 2007,
             desc: "Mit dem iPhone wird das erste Smartphone mit Multi-Touch-Screen vorgestellt."
+        },
+		{
+            date: 2010,
+            desc: "Lena gewinnt mit Satellite beim Eurovision Song Contest."
+        },
+		{
+            date: 2010,
+            desc: "Durch einen Vulkanausbruch in Island wird der Flugverkehr über Euopa tagelang eingestellt."
         },
         {
             date: 2011,
@@ -439,6 +467,10 @@ annoDomini = function() {
         {
             date: 2016,
             desc: "Ein gestohlener LKW fährt in den gut besuchten Berliner Weihnachtsmarkt an der Gedächtniskirche."
+        },
+		{
+            date: 2017,
+            desc: "In Deutschland wird die Ehe für alle gesetzlich ermöglicht."
         },
         {
             date: 2018,
