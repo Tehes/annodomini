@@ -53,12 +53,16 @@ annoDomini = function() {
             desc: "Der Augustinermönch Martin Luther formuliert die Reformationsthesen."
         },
         {
-            date: 1535,
+            date: 1534,
             desc: "Heinrich VIII. löst die englische Kirche von Rom und gründet die angelsächsische Staatskirche."
         },
         {
             date: 1587,
             desc: "Maria Stuart wird nach 18-jähriger Gefangenschaft hingerichtet."
+        },
+		{
+            date: 1602,
+            desc: "Die Geburtsstunde der Aktie in Europa"
         },
         {
             date: 1648,
@@ -71,6 +75,10 @@ annoDomini = function() {
         {
             date: 1675,
             desc: "Unter dem englischen König Karl II. wird in Greenwich der Nullmeridian festgelegt."
+        },
+		{
+            date: 1717,
+            desc: "Der preußische König Friedrich Wilhelm I. führt die Schulpflicht ein."
         },
         {
             date: 1789,
@@ -141,8 +149,16 @@ annoDomini = function() {
             desc: "Felix Hoffmann erfindet das Aspirin."
         },
 		{
+            date: 1882,
+            desc: "Baubeginn der Sagrada Familia"
+        },
+		{
             date: 1883,
             desc: "Reichskanzler Otto von Bismarck initiiert die deutschen Sozialgesetze."
+        },
+		{
+            date: 1884,
+            desc: "Die Einteilung der Welt in 24 Zeitzonen wird beschlossen."
         },
 		{
             date: 1885,
@@ -211,6 +227,10 @@ annoDomini = function() {
         {
             date: 1918,
             desc: "Ausbruch der spanischen Grippe"
+        },
+		{
+            date: 1918,
+            desc: "In Deutschland wird das Frauenwahlrecht gesetzlich verankert."
         },
         {
             date: 1919,
@@ -372,6 +392,18 @@ annoDomini = function() {
             date: 1979,
             desc: "Ursula Buchfellner schafft es als erstes deutsches Playmate in den US-amerikanischen Playboy."
         },
+		{
+            date: 1979,
+            desc: "Die NBA führt die Dreipunktelinie ein."
+        },
+		{
+            date: 1980,
+            desc: "Die Bundesrepublik Deutschland führt die Mitteleuropäische Sommerzeit (MESZ) ein."
+        },
+		{
+            date: 1981,
+            desc: "AIDS wird als epidemische Krankheit erkannt."
+        },
         {
             date: 1982,
             desc: "Argentinien besetzt die britischen Falkland-Inseln."
@@ -412,6 +444,10 @@ annoDomini = function() {
             date: 1996,
             desc: "Das walisische Bergschaf „Dolly“ wird zum ersten geklonten Säugetier."
         },
+		{
+            date: 1996,
+            desc: "In diesem Jahr wurden sämtliche Sommerzeiten Europas vereinheitlicht."
+        },
         {
             date: 1996,
             desc: "In Großbritannien bricht die BSE-Krise aus."
@@ -439,6 +475,10 @@ annoDomini = function() {
 		{
             date: 2007,
             desc: "Mit dem iPhone wird das erste Smartphone mit Multi-Touch-Screen vorgestellt."
+        },
+		{
+            date: 2008,
+            desc: "Satoshi Nakamoto erfindet den Bitcoin."
         },
 		{
             date: 2010,
@@ -475,6 +515,10 @@ annoDomini = function() {
         {
             date: 2018,
             desc: "Die Schwedin Greta Thunberg demonstriert erstmals gegen die Folgen des Klimawandels."
+        },
+		{
+            date: 2018,
+            desc: "Das dritte Geschlecht wird in Deutschland eingeführt."
         },
 		{
             date: 2019,
