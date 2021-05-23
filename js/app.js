@@ -436,6 +436,10 @@ annoDomini = function() {
             date: 1992,
             desc: "Die weltweit erste SMS wird vesendet. Text: Merry Christmas!"
         },
+		{
+            date: 1993,
+            desc: "Deutschland wechselt von vierstelligen auf fünfstellige Postleitzahlen."
+        },
         {
             date: 1994,
             desc: "Michael Schumacher wird erstmals Formel 1 Weltmeister."
@@ -519,6 +523,10 @@ annoDomini = function() {
 		{
             date: 2018,
             desc: "Das dritte Geschlecht wird in Deutschland eingeführt."
+        },
+		{
+            date: 2018,
+            desc: "Die Musikindustrie in Deutschland macht zum ersten Mal mehr Umsatz mit Streaming als mit CD-Verkäufen."
         },
 		{
             date: 2019,
@@ -683,6 +691,7 @@ annoDomini = function() {
 
     function endRound(evt) {
         removeCard(evt.item.dataset.index);
+		checkIfFinished();
 
         round++;
         fillcardStack();
@@ -715,11 +724,22 @@ annoDomini = function() {
 		else {
 			result.textContent = playerList[playerIndex].name + " nimmt 2 Karten auf";
 			playerList[playerIndex].cards = playerList[playerIndex].cards.concat(drawCards(2));
+			checkIfFinished();
 			round++;
 		}
 		cardStack.empty();
 		addSolveButton.removeEventListener("click", solve, false);
     }
+	
+	function checkIfFinished() {
+		var playerIndex, previousIndex;
+		
+		playerIndex = round % playerList.length;
+		previousIndex = (playerIndex === 0) ? playerList.length-1 : playerIndex-1;
+		if (playerList[previousIndex].cards.length === 0) {
+			alert(playerList[previousIndex].name + " gewinnt");
+		}
+	}
 
     function init() {
         historicalDates.shuffle();
