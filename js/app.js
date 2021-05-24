@@ -106,7 +106,7 @@ annoDomini = function() {
         },
 		{
             date: 1843,
-            desc: "Friedrich Gottlob Keller erfindet den Papier-Rohstoff."
+            desc: "Friedrich Gottlob Keller entwickelt das noch heute übliche Verfahren zur Papierherstellung mittels Holzschliff."
         },
         {
             date: 1846,
@@ -202,7 +202,7 @@ annoDomini = function() {
         },
 		{
             date: 1905,
-            desc: "Josf Schmidt erfindet das Brettspiel Mensch ärgere dich nicht."
+            desc: "Josef Schmidt erfindet das Brettspiel Mensch ärgere dich nicht."
         },
 		{
             date: 1907,
@@ -490,7 +490,7 @@ annoDomini = function() {
         },
 		{
             date: 2010,
-            desc: "Durch einen Vulkanausbruch in Island wird der Flugverkehr über Euopa tagelang eingestellt."
+            desc: "Durch einen Vulkanausbruch in Island wird der Flugverkehr über Europa tagelang eingestellt."
         },
         {
             date: 2011,
