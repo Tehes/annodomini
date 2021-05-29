@@ -33,8 +33,20 @@ annoDomini = function() {
     var playerList = [];
     var historicalDates = [
 		{
+            date: 200,
+            desc: "Kaiser Septimus Severus verbietet die bis dato sehr beliebten Kämpfe weiblicher Gladiatoren."
+        },
+		{
             date: 1066,
             desc: "Wilhelm der Eroberer gründet England."
+        },
+		{
+            date: 1139,
+            desc: "Die römisch-katholische Kirche führt das Zölibat ein."
+        },
+		{
+            date: 1210,
+            desc: "Gottfried von Strassbourg erzählt die Geschichte von Tristan und Isolde."
         },
 		{
             date: 1440,
@@ -51,6 +63,10 @@ annoDomini = function() {
 		{
             date: 1517,
             desc: "Der Augustinermönch Martin Luther formuliert die Reformationsthesen."
+        },
+		{
+            date: 1527,
+            desc: "Das wohl einzige authentische Porträt von Jesus Christus wird gestohlen und bleibt seither verschollen."
         },
         {
             date: 1534,
@@ -69,6 +85,10 @@ annoDomini = function() {
             desc: "Der Westfälische Frieden beendet den 30-jährigen Krieg."
         },
 		{
+            date: 1626,
+            desc: "Holländer kaufen die Insel Manhattan von Indianern für Waren im Wert von 60 Gulden."
+        },
+		{
             date: 1650,
             desc: "Der Naturwissenschaftler Otto von Guericke weist die Existenz des Vakuums nach."
         },
@@ -80,9 +100,17 @@ annoDomini = function() {
             date: 1717,
             desc: "Der preußische König Friedrich Wilhelm I. führt die Schulpflicht ein."
         },
+		{
+            date: 1769,
+            desc: "Réstif de la Bretonne schafft mit seinem Buchtitel einen neuen Begriff: Le Pornographe"
+        },
         {
             date: 1789,
             desc: "Französische Revolution"
+        },
+		{
+            date: 1799,
+            desc: "Erstmals zersägt ein Zauberer auf der Bühne eine Frau."
         },
         {
             date: 1804,
@@ -220,6 +248,10 @@ annoDomini = function() {
             date: 1915,
             desc: "Albert Einstein entwickelt die Relativitätstheorie."
         },
+		{
+            date: 1915,
+            desc: "Ein Mexikaner überlebt seine Hinrichtung durch acht Schützen und den Gnadenschuss in den Kopf."
+        },
         {
             date: 1917,
             desc: "Oktoberrevolution in Russland: Lenin übernimmt die Macht."
@@ -235,6 +267,10 @@ annoDomini = function() {
         {
             date: 1919,
             desc: "Beginn der Prohibition in den USA"
+        },
+		{
+            date: 1919,
+            desc: "Erstes schwules Paar in einem Spielfilm (Anders als die Andern)"
         },
 		{
             date: 1922,
@@ -275,6 +311,10 @@ annoDomini = function() {
 		{
             date: 1934,
             desc: "Hermann Kemper erfindet die Magnetschwebebahn."
+        },
+		{
+            date: 1934,
+            desc: "Bonnie und Clyde geraten in einen Hinterhalt und werden erschossen."
         },
 		{
             date: 1936,
@@ -380,6 +420,10 @@ annoDomini = function() {
             date: 1971,
             desc: "Mercedes Benz erfindet den Airbag."
         },
+		{
+            date: 1973,
+            desc: "Schweinchen Dick wird wegen Brutalität aus dem deutschen Fernsehen verbannt."
+        },
         {
             date: 1974,
             desc: "US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
@@ -391,6 +435,10 @@ annoDomini = function() {
 		{
             date: 1979,
             desc: "Ursula Buchfellner schafft es als erstes deutsches Playmate in den US-amerikanischen Playboy."
+        },
+		{
+            date: 1979,
+            desc: "Studentenführer Rudi Dutschke stirbt an den Spätfolgen eines Attentats."
         },
 		{
             date: 1979,
@@ -412,6 +460,10 @@ annoDomini = function() {
             date: 1982,
             desc: "Ein bischen Frieden gewinnt als erster deutscher Beitrag den ESC."
         },
+		{
+            date: 1984,
+            desc: "Marvin Gaye wird an seinem 45. Geburtstag im Streit von seinem Vater erschossen."
+        },
         {
             date: 1985,
             desc: "Boris Becker wird der erste deutsche und der jüngste Wimbledon-Sieger aller Zeiten."
@@ -431,6 +483,10 @@ annoDomini = function() {
 		{
             date: 1991,
             desc: "Die Junghans AG erfindet die Funkarmbanduhr."
+        },
+		{
+            date: 1991,
+            desc: "Das Schweigen der Lämmer kommt ins Kino."
         },
 		{
             date: 1992,
@@ -457,6 +513,10 @@ annoDomini = function() {
             desc: "In Großbritannien bricht die BSE-Krise aus."
         },
 		{
+            date: 1996,
+            desc: "Robbie Williams verlässt Take That"
+        },
+		{
             date: 1999,
             desc: "Die Geburt der Emojis"
         },
@@ -473,8 +533,16 @@ annoDomini = function() {
             desc: "In Europa wird der Euro als Zahlungsmittel eingeführt."
         },
 		{
+            date: 2003,
+            desc: "Michael Jackson wird wegen Kindesmissbrauchs angeklagt."
+        },
+		{
             date: 2005,
             desc: "Auf Youtube wird das erste Video hochgeladen."
+        },
+		{
+            date: 2005,
+            desc: "Modezar Rudolph Mooshammer wird in seiner Villa mit einem Telefonkabel stranguliert."
         },
 		{
             date: 2007,
