@@ -65,6 +65,10 @@ annoDomini = function() {
             desc: "Der Augustinermönch Martin Luther formuliert die Reformationsthesen."
         },
 		{
+            date: 1517,
+            desc: "Der französische König kauft für 4000 Gulden die Mona Lisa um sie in seinem Badezimmer aufzuhängen."
+        },
+		{
             date: 1527,
             desc: "Das wohl einzige authentische Porträt von Jesus Christus wird gestohlen und bleibt seither verschollen."
         },
@@ -221,6 +225,10 @@ annoDomini = function() {
             desc: "Emil Berliner erfindet den Plattenspieler."
         },
 		{
+            date: 1888,
+            desc: "In London geht Jack the Ripper um."
+        },
+		{
             date: 1890,
             desc: "Rudolf Diesel erfindet den Dieselmotor."
         },
@@ -245,12 +253,20 @@ annoDomini = function() {
             desc: "Vor dem Hotel de la Paix in Genf wird die Kaiserin Sissi erdolcht."
         },
 		{
+            date: 1899,
+            desc: "Martha Place ist die erste Frau, die in den USA auf dem elektrischen Stuhl hingerichtet wird."
+        },
+		{
             date: 1902,
             desc: "Robert Bosch erfindet die Zündkerze."
         },
 		{
             date: 1903,
             desc: "Der Glastechniker Reinhold Burger erfindet die Thermosflasche."
+        },
+		{
+            date: 1904,
+            desc: "Der deutsche General von Trotha befiehlt, den Stamm der Hereros in Südwestafrika auszurotten."
         },
 		{
             date: 1905,
@@ -409,6 +425,10 @@ annoDomini = function() {
             desc: "Die Edelprostituierte Rosemarie Nitribitt wird in Frankfurt ermordet."
         },
 		{
+            date: 1957,
+            desc: "In New York wird das Musical West Side Story uraufgeführt."
+        },
+		{
             date: 1958,
             desc: "Artur Fischer erfindet den Dübel."
         },
@@ -454,11 +474,15 @@ annoDomini = function() {
         },
         {
             date: 1964,
-            desc: "Vietnam-Krieg"
+            desc: "Beginn des Vietnam-Kriegs"
         },
         {
             date: 1968,
             desc: "Der schwarze Bürgerrechtler Martin Luther King wird ermordet."
+        },
+		{
+            date: 1968,
+            desc: "In Spanien raubt ein Mann eine Bank aus, in dem er zur Verwirrung 2000 Kanarienvögel in der Schalterhalle fliegen lässt."
         },
         {
             date: 1969,
@@ -473,12 +497,20 @@ annoDomini = function() {
             desc: "Mit dem Arpanet nimmt der Vorläufer des Internets seinen Betrieb auf."
         },
 		{
+            date: 1969,
+            desc: "Dreitägiger Aufstand in der Christopher Street nach einer Razzia in einer Schwulenbar in New York"
+        },
+		{
             date: 1971,
             desc: "Mercedes Benz erfindet den Airbag."
         },
 		{
             date: 1972,
             desc: "Terroristen überfallen des israelische Quartier im olympischen Dorf in München."
+        },
+		{
+            date: 1972,
+            desc: "Bei Christie's in London wird der Penis Napoleons versteigert."
         },
 		{
             date: 1973,
@@ -569,6 +601,14 @@ annoDomini = function() {
             desc: "Fall der Mauer und Öffnung aller DDR-Grenzen nach Westen."
         },
 		{
+            date: 1989,
+            desc: "In Dänemark wird die erste homosexuelle Ehe geschlossen."
+        },
+		{
+            date: 1989,
+            desc: "Der von Studenten besetzte Platz des Himmlischen Friedens in Peking wird von Panzern geräumt."
+        },
+		{
             date: 1991,
             desc: "Die Junghans AG erfindet die Funkarmbanduhr."
         },
@@ -600,6 +640,10 @@ annoDomini = function() {
             date: 1994,
             desc: "Nach 21 Monaten der Jagd fasst die Polizei den Kaufhauserpresser Dagobert."
         },
+		{
+            date: 1994,
+            desc: "Edvard Munchs \"Der Schrei\" wird vor laufender Überwachungskamera aus Oslos Nationalgalerie geraubt."
+        },
         {
             date: 1996,
             desc: "Das walisische Bergschaf „Dolly“ wird zum ersten geklonten Säugetier."
@@ -619,6 +663,10 @@ annoDomini = function() {
 		{
             date: 1996,
             desc: "Robbie Williams verlässt Take That"
+        },
+		{
+            date: 1996,
+            desc: "Der weltweit einzige Fußabdruck eines Stegosaurus wird aus einem Fels geschnitten und geklaut."
         },
 		{
             date: 1997,
