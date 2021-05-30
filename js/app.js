@@ -97,8 +97,16 @@ annoDomini = function() {
             desc: "Unter dem englischen König Karl II. wird in Greenwich der Nullmeridian festgelegt."
         },
 		{
+            date: 1675,
+            desc: "Zum bisher einzigen Mal werden die britischen Kronjuwelen geraubt. Der Dieb wird noch im Tower geschnappt."
+        },
+		{
             date: 1717,
             desc: "Der preußische König Friedrich Wilhelm I. führt die Schulpflicht ein."
+        },
+		{
+            date: 1757,
+            desc: "Im Pariser \"Magazine des Enfants\" erscheint die Geschichte \"Die Schöne und die Bestie\"."
         },
 		{
             date: 1769,
@@ -120,6 +128,10 @@ annoDomini = function() {
             date: 1815,
             desc: "Napoleons Rückkehr und Niederlage bei Waterloo."
         },
+		{
+            date: 1818,
+            desc: "Die junge Mary Shelley schreibt den Bestseller Frankenstein."
+        },
         {
             date: 1820,
             desc: "In den USA wird nördlich des 36. Breitengrades die Sklaverei verboten."
@@ -139,6 +151,10 @@ annoDomini = function() {
         {
             date: 1846,
             desc: "Ida Pfeiffer geht als erste Frau allein auf Weltreise."
+        },
+		{
+            date: 1847,
+            desc: "Der Struwwelpeter hält als Schreckgespenst Einzug in den Kinderstuben."
         },
 		{
             date: 1854,
@@ -209,6 +225,10 @@ annoDomini = function() {
             desc: "Rudolf Diesel erfindet den Dieselmotor."
         },
 		{
+            date: 1891,
+            desc: "Mit der Unterwerfung der Sioux enden die Indianerkriege in den USA."
+        },
+		{
             date: 1894,
             desc: "Otto Lilienthal steuert die ersten Gleitflugzeuge."
         },
@@ -219,6 +239,10 @@ annoDomini = function() {
 		{
             date: 1895,
             desc: "Entdeckung der Röntgenstrahlung durch den Physiker Wilhelm Röntgen."
+        },
+		{
+            date: 1898,
+            desc: "Vor dem Hotel de la Paix in Genf wird die Kaiserin Sissi erdolcht."
         },
 		{
             date: 1902,
@@ -255,6 +279,10 @@ annoDomini = function() {
         {
             date: 1917,
             desc: "Oktoberrevolution in Russland: Lenin übernimmt die Macht."
+        },
+		{
+            date: 1917,
+            desc: "Die Tänzerin Mata Hari wird in Paris als deutsche Spionin erschossen."
         },
         {
             date: 1918,
@@ -304,6 +332,10 @@ annoDomini = function() {
             date: 1930,
             desc: "Der deutsche Forscher Manfred von Ardenne erfindet das Fernsehen."
         },
+		{
+            date: 1931,
+            desc: "Gangsterboss Al Capone muss wegen Steuerhinterziehung ins Gefängnis."
+        },
         {
             date: 1933,
             desc: "Nach dem Wahlerfolg der NSDAP wird Hitler zum Reichskanzler ernannt."
@@ -329,6 +361,10 @@ annoDomini = function() {
             desc: "Bis zu diesem Jahr hatten Liechtenstein und Haiti die gleiche Fahne."
         },
 		{
+            date: 1937,
+            desc: "Dr. Vladimir Fortunato entwickelt den Vibrator."
+        },
+		{
             date: 1938,
             desc: "Otto Hahn erfindet die Kernspaltung."
         },
@@ -339,6 +375,10 @@ annoDomini = function() {
 		{
             date: 1941,
             desc: "Konrad Zuse entwickelte den ersten programmierbaren Rechner."
+        },
+		{
+            date: 1946,
+            desc: "Bei einer Modeschau in Paris wird der Bikini vorgeführt."
         },
 		{
             date: 1949,
@@ -365,12 +405,20 @@ annoDomini = function() {
             desc: "Die UdSSR schickt mit »Sputnik 1« den ersten künstlichen Satelliten ins Weltall."
         },
 		{
+            date: 1957,
+            desc: "Die Edelprostituierte Rosemarie Nitribitt wird in Frankfurt ermordet."
+        },
+		{
             date: 1958,
             desc: "Artur Fischer erfindet den Dübel."
         },
 		{
             date: 1958,
             desc: "Volvo entwickelt den Sicherheitsgurt."
+        },
+		{
+            date: 1958,
+            desc: "Durch Neutronenaktivierungsanalyse gelingt in einem Mordfall erstmals die Zuweisung eines Haars vom Tatort zum Täter."
         },
         {
             date: 1959,
@@ -379,6 +427,10 @@ annoDomini = function() {
 		{
             date: 1961,
             desc: "Bau der Berliner Mauer"
+        },
+		{
+            date: 1961,
+            desc: "Die Barbie-Puppe bekommt Unterstützung durch Ken."
         },
 		{
             date: 1961,
@@ -391,6 +443,10 @@ annoDomini = function() {
         {
             date: 1962,
             desc: "Kuba Krise"
+        },
+		{
+            date: 1962,
+            desc: "Ein südafrikanisches Gericht schickt Nelson Mandela für viele Jahre ins Gefängnis."
         },
 		{
             date: 1963,
@@ -421,8 +477,16 @@ annoDomini = function() {
             desc: "Mercedes Benz erfindet den Airbag."
         },
 		{
+            date: 1972,
+            desc: "Terroristen überfallen des israelische Quartier im olympischen Dorf in München."
+        },
+		{
             date: 1973,
             desc: "Schweinchen Dick wird wegen Brutalität aus dem deutschen Fernsehen verbannt."
+        },
+		{
+            date: 1973,
+            desc: "Im Tenni-Showkampf der Geschlechter schlägt Billy Jean King ihren Herausforderer Bobby Riggs."
         },
         {
             date: 1974,
@@ -431,6 +495,14 @@ annoDomini = function() {
 		{
             date: 1977,
             desc: "Das erste durch In-Vitro-Fertilisation gezeugte Baby wird geboren."
+        },
+		{
+            date: 1977,
+            desc: "Die USA entwickeln die Neutronenbombe."
+        },
+		{
+            date: 1977,
+            desc: "Die deutsche RAF tötet Arbeitgeberpräsident Hanns-Martin Schleyer."
         },
 		{
             date: 1979,
@@ -461,8 +533,20 @@ annoDomini = function() {
             desc: "Ein bischen Frieden gewinnt als erster deutscher Beitrag den ESC."
         },
 		{
+            date: 1983,
+            desc: "Die Tagebücher Adolf Hitlers tauchen auf - und werden als Fälschung entlarvt."
+        },
+		{
+            date: 1983,
+            desc: "Scotland Yard ist das Spiel des Jahres."
+        },
+		{
             date: 1984,
             desc: "Marvin Gaye wird an seinem 45. Geburtstag im Streit von seinem Vater erschossen."
+        },
+		{
+            date: 1984,
+            desc: "Josef Fritzl sperrt seine 18-jährige Tochter in ein Kellerverlies. Dort wird er sie 24 Jahre als Sexsklavin halten."
         },
         {
             date: 1985,
@@ -471,6 +555,10 @@ annoDomini = function() {
         {
             date: 1986,
             desc: "Kernschmelze im Atomkraftwerk Tschernobyl"
+        },
+		{
+            date: 1987,
+            desc: "Rudi Carell präsentiert zum ersten Mal die Flirtshow Herzblatt"
         },
 		{
             date: 1988,
@@ -493,12 +581,24 @@ annoDomini = function() {
             desc: "Die weltweit erste SMS wird vesendet. Text: Merry Christmas!"
         },
 		{
+            date: 1992,
+            desc: "Der kolumbianische Drogenboss Pablo Escobar entkommt aus seinem Luxusgefängnis."
+        },
+		{
             date: 1993,
             desc: "Deutschland wechselt von vierstelligen auf fünfstellige Postleitzahlen."
         },
         {
             date: 1994,
             desc: "Michael Schumacher wird erstmals Formel 1 Weltmeister."
+        },
+		{
+            date: 1994,
+            desc: "Eiskunstläuferin Tonya Harding lässt einer Rivalin das Knie mit einer Eisenstange zerschmettern."
+        },
+		{
+            date: 1994,
+            desc: "Nach 21 Monaten der Jagd fasst die Polizei den Kaufhauserpresser Dagobert."
         },
         {
             date: 1996,
@@ -508,6 +608,10 @@ annoDomini = function() {
             date: 1996,
             desc: "In diesem Jahr wurden sämtliche Sommerzeiten Europas vereinheitlicht."
         },
+		{
+            date: 1996,
+            desc: "Der Kindermörder und Kinderpornohändler Marc Dutroux wird in Charleroi in Belgien verhaftet."
+        },
         {
             date: 1996,
             desc: "In Großbritannien bricht die BSE-Krise aus."
@@ -515,6 +619,10 @@ annoDomini = function() {
 		{
             date: 1996,
             desc: "Robbie Williams verlässt Take That"
+        },
+		{
+            date: 1997,
+            desc: "Myke Tyson beißt Evander Holyfield beim Weltmeisterschaftskampf im Schwergewicht ein Ohr ab."
         },
 		{
             date: 1999,
@@ -543,6 +651,10 @@ annoDomini = function() {
 		{
             date: 2005,
             desc: "Modezar Rudolph Mooshammer wird in seiner Villa mit einem Telefonkabel stranguliert."
+        },
+		{
+            date: 2006,
+            desc: "Natascha Kampusch gelingt nach 8 Jahren die Flucht aus einem Kellerzimmerchen."
         },
 		{
             date: 2007,
