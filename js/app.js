@@ -37,6 +37,14 @@ annoDomini = function() {
             desc: "Kaiser Septimus Severus verbietet die bis dato sehr beliebten Kämpfe weiblicher Gladiatoren."
         },
 		{
+            date: 752,
+            desc: "Papst Stephan II stirbt vier Tage nach seiner Wahl an einem Schlaganfall."
+        },
+		{
+            date: 972,
+            desc: "Papst Johannes XIII wird von einem wütenden Ehemann erschlagen, der ihn inflagranti mit seiner Frau erwischt."
+        },
+		{
             date: 1066,
             desc: "Wilhelm der Eroberer gründet England."
         },
@@ -45,8 +53,16 @@ annoDomini = function() {
             desc: "Die römisch-katholische Kirche führt das Zölibat ein."
         },
 		{
+            date: 1178,
+            desc: "Bereits beim Bau des dritten Stockwerks gerät der Turm von Pisa in Schieflage."
+        },
+		{
             date: 1210,
             desc: "Gottfried von Strassbourg erzählt die Geschichte von Tristan und Isolde."
+        },
+		{
+            date: 1327,
+            desc: "König Edward II von England wird qualvoll durch ein glühend heißes Eisen in seinem After ermordet."
         },
 		{
             date: 1440,
@@ -93,6 +109,10 @@ annoDomini = function() {
             desc: "Holländer kaufen die Insel Manhattan von Indianern für Waren im Wert von 60 Gulden."
         },
 		{
+            date: 1630,
+            desc: "In der französischen Schrift werden Akzentzeichen eingeführt."
+        },
+		{
             date: 1650,
             desc: "Der Naturwissenschaftler Otto von Guericke weist die Existenz des Vakuums nach."
         },
@@ -107,6 +127,10 @@ annoDomini = function() {
 		{
             date: 1717,
             desc: "Der preußische König Friedrich Wilhelm I. führt die Schulpflicht ein."
+        },
+		{
+            date: 1721,
+            desc: "Der erste Bankenskandal: Die königliche Bank von Frankreich ist bankrott."
         },
 		{
             date: 1757,
@@ -136,6 +160,14 @@ annoDomini = function() {
             date: 1818,
             desc: "Die junge Mary Shelley schreibt den Bestseller Frankenstein."
         },
+		{
+            date: 1818,
+            desc: "Erstmals wird ein Zahn mit Amalgam gefüllt."
+        },
+		{
+            date: 1819,
+            desc: "Beethoven hat endgültig sein Gehör verloren."
+        },
         {
             date: 1820,
             desc: "In den USA wird nördlich des 36. Breitengrades die Sklaverei verboten."
@@ -145,12 +177,20 @@ annoDomini = function() {
             desc: "Christian Buschmann erfindet die Mundharmonika."
         },
 		{
+            date: 1824,
+            desc: "Die Zeitung Harrisburg Pennsylvanian veröffentlicht die weltweit erste Meinungsumfrage."
+        },
+		{
             date: 1825,
             desc: "König Ludwig I. von Baiern legt fest, dass man sein Land in Zukunft mit Y schreiben sollte."
         },
 		{
             date: 1843,
             desc: "Friedrich Gottlob Keller entwickelt das noch heute übliche Verfahren zur Papierherstellung mittels Holzschliff."
+        },
+		{
+            date: 1845,
+            desc: "Großbritannien erlässt ein Gesetz wonach versuchter Selbstmord mit dem Tod durch Erhängen bestraft wird."
         },
         {
             date: 1846,
@@ -159,6 +199,18 @@ annoDomini = function() {
 		{
             date: 1847,
             desc: "Der Struwwelpeter hält als Schreckgespenst Einzug in den Kinderstuben."
+        },
+		{
+            date: 1848,
+            desc: "In Norwegen bricht eine epidemische Vanilleeisvergiftung aus."
+        },
+		{
+            date: 1848,
+            desc: "Mexiko muss nahezu die Hälfte seines Staatsgebiets an die USA abtreten."
+        },
+		{
+            date: 1850,
+            desc: "226 im Gleichschritt marschierende Soldaten bringen die Pont d´Angers zum Einsturz."
         },
 		{
             date: 1854,
@@ -233,6 +285,14 @@ annoDomini = function() {
             desc: "Rudolf Diesel erfindet den Dieselmotor."
         },
 		{
+            date: 1890,
+            desc: "Einführung der Lochkarten-Zählmaschinen für Volkszählungen und Wahlen in den USA"
+        },
+		{
+            date: 1890,
+            desc: "William Kemmler wird als erster Mensch auf dem elektrischen Stuhl hingerichtet."
+        },
+		{
             date: 1891,
             desc: "Mit der Unterwerfung der Sioux enden die Indianerkriege in den USA."
         },
@@ -271,6 +331,10 @@ annoDomini = function() {
 		{
             date: 1905,
             desc: "Josef Schmidt erfindet das Brettspiel Mensch ärgere dich nicht."
+        },
+		{
+            date: 1906,
+            desc: "Der Hamburger Michel gerät bei Schweißarbeiten an der Turmuhr in Brand und stürzt ein."
         },
 		{
             date: 1907,
@@ -317,12 +381,20 @@ annoDomini = function() {
             desc: "Erstes schwules Paar in einem Spielfilm (Anders als die Andern)"
         },
 		{
+            date: 1921,
+            desc: "Eine Explosion  auf dem Gelände der BASF bei Ludwigshafen fordert rund 600 Menschenleben."
+        },
+		{
             date: 1922,
             desc: "Hans Riegel erfindet das Goldbärchen."
         },
 		{
             date: 1922,
             desc: "Mit Power of Love erscheint der erste kommerzielle 3D-Film."
+        },
+		{
+            date: 1923,
+            desc: "Galoppierende Inflation in Deutschland: Ein Dutzend Eier kosten 1 Billion Mark."
         },
 		{
             date: 1925,
@@ -384,6 +456,10 @@ annoDomini = function() {
             date: 1938,
             desc: "Otto Hahn erfindet die Kernspaltung."
         },
+		{
+            date: 1938,
+            desc: "Joe Shuster und Jerry Siegel verkaufen alle Rechte an ihrer Comicfigur Superman für 130 Dollar an ihren Verleger."
+        },
         {
             date: 1939,
             desc: "Beginn des 2. Weltkriegs"
@@ -403,6 +479,14 @@ annoDomini = function() {
 		{
             date: 1951,
             desc: "Der Elektrotechniker Rudolf Hell erfindet den Scanner."
+        },
+		{
+            date: 1952,
+            desc: "Aus Frust über eine Ermahnung schlägt der Boxer Peter Müller den Ringrichter mit einer Linken K.O."
+        },
+		{
+            date: 1952,
+            desc: "Am kandischen Chalk River explodiert erstmals ein Kernreaktor."
         },
 		{
             date: 1953,
@@ -427,6 +511,10 @@ annoDomini = function() {
 		{
             date: 1957,
             desc: "In New York wird das Musical West Side Story uraufgeführt."
+        },
+		{
+            date: 1957,
+            desc: "Bei einem Zuchtexperiment in Brasilien entkommen sogenannte Killerbienen."
         },
 		{
             date: 1958,
@@ -520,6 +608,10 @@ annoDomini = function() {
             date: 1973,
             desc: "Im Tenni-Showkampf der Geschlechter schlägt Billy Jean King ihren Herausforderer Bobby Riggs."
         },
+		{
+            date: 1973,
+            desc: "Der schwedische Süßwarenvertreter Roland Ohlsson wird in einem Sarg aus Schokolade beigesetzt."
+        },
         {
             date: 1974,
             desc: "US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
@@ -535,6 +627,14 @@ annoDomini = function() {
 		{
             date: 1977,
             desc: "Die deutsche RAF tötet Arbeitgeberpräsident Hanns-Martin Schleyer."
+        },
+		{
+            date: 1977,
+            desc: "Die Krönung des Kaisers Bokassa kostet die Zentralafrikanische Regierung ca. ein Drittel des Staatshaushalts"
+        },
+		{
+            date: 1978,
+            desc: "Charlie Chaplin wird aus seinem Grab in Vevey gestohlen."
         },
 		{
             date: 1979,
@@ -555,6 +655,10 @@ annoDomini = function() {
 		{
             date: 1981,
             desc: "AIDS wird als epidemische Krankheit erkannt."
+        },
+		{
+            date: 1981,
+            desc: "Deutschland schafft die Essigsäuresteuer ab."
         },
         {
             date: 1982,
@@ -609,6 +713,10 @@ annoDomini = function() {
             desc: "Der von Studenten besetzte Platz des Himmlischen Friedens in Peking wird von Panzern geräumt."
         },
 		{
+            date: 1989,
+            desc: "Im völlig überfüllten Stadion von Sheffield kommt es zu einer Massenpanik. 96 Menschen sterben."
+        },
+		{
             date: 1991,
             desc: "Die Junghans AG erfindet die Funkarmbanduhr."
         },
@@ -628,9 +736,17 @@ annoDomini = function() {
             date: 1993,
             desc: "Deutschland wechselt von vierstelligen auf fünfstellige Postleitzahlen."
         },
+		{
+            date: 1993,
+            desc: "Bei den Dreharbeiten zum Film the Crow wird der Hauptdarsteller durch eine Platzpatrone erschossen."
+        },
         {
             date: 1994,
             desc: "Michael Schumacher wird erstmals Formel 1 Weltmeister."
+        },
+		{
+            date: 1994,
+            desc: "Michael Jackson heiratet Lisa Marie Presley. Die Ehe hält nur 2 Jahre."
         },
 		{
             date: 1994,
@@ -643,6 +759,10 @@ annoDomini = function() {
 		{
             date: 1994,
             desc: "Edvard Munchs \"Der Schrei\" wird vor laufender Überwachungskamera aus Oslos Nationalgalerie geraubt."
+        },
+		{
+            date: 1994,
+            desc: "Hunderten von Uruguayern fällt nach Benutzung eines Antischuppenshampoos das gesamte Haar aus."
         },
         {
             date: 1996,
@@ -677,8 +797,16 @@ annoDomini = function() {
             desc: "Die Geburt der Emojis"
         },
 		{
+            date: 1999,
+            desc: "Der Argentnier Martin Palermo verschießt in einem Fußball-Länderspiel gegen Kolumbien drei Elfmeter."
+        },
+		{
             date: 2000,
             desc: "An der Börse platzt die sogenannte Dotcom-Blase"
+        },
+		{
+            date: 2001,
+            desc: "Die Öhlbohrinsel P36 der Petrobas versinkt samt 2,7 Millionen Litern Öl im Atlantik."
         },
         {
             date: 2001,
@@ -691,6 +819,10 @@ annoDomini = function() {
 		{
             date: 2003,
             desc: "Michael Jackson wird wegen Kindesmissbrauchs angeklagt."
+        },
+		{
+            date: 2003,
+            desc: "Riesiger Stromausfall. Der Nordosten der USA und Kanada sind während Stunden ohne Elektrizität."
         },
 		{
             date: 2005,
@@ -711,6 +843,10 @@ annoDomini = function() {
 		{
             date: 2008,
             desc: "Satoshi Nakamoto erfindet den Bitcoin."
+        },
+		{
+            date: 2009,
+            desc: "Bei der Rugby-Europameisterschaft der Frauen verliert Belgien gegen die Niederlande 100:0."
         },
 		{
             date: 2010,
