@@ -33,6 +33,10 @@ annoDomini = function() {
     var playerList = [];
     var historicalDates = [
 		{
+            date: 105,
+            desc: "Der Eunuch Cai Lun legt dem Kaiser von China das Schreibpapier vor."
+        },
+		{
             date: 200,
             desc: "Kaiser Septimus Severus verbietet die bis dato sehr beliebten Kämpfe weiblicher Gladiatoren."
         },
@@ -97,6 +101,10 @@ annoDomini = function() {
             desc: "Maria Stuart wird nach 18-jähriger Gefangenschaft hingerichtet."
         },
 		{
+            date: 1592,
+            desc: "Galileo Galilei erfindet das Luftthermometer."
+        },
+		{
             date: 1602,
             desc: "Die Geburtsstunde der Aktie in Europa"
         },
@@ -116,6 +124,10 @@ annoDomini = function() {
             date: 1650,
             desc: "Der Naturwissenschaftler Otto von Guericke weist die Existenz des Vakuums nach."
         },
+		{
+            date: 1653,
+            desc: "In Paris werden die ersten Briefkästen aufgestellt."
+        },
         {
             date: 1675,
             desc: "Unter dem englischen König Karl II. wird in Greenwich der Nullmeridian festgelegt."
@@ -133,6 +145,10 @@ annoDomini = function() {
             desc: "Der erste Bankenskandal: Die königliche Bank von Frankreich ist bankrott."
         },
 		{
+            date: 1749,
+            desc: "Entwicklung der allgemeinen Zeichensprache für Taubstumme."
+        },
+		{
             date: 1757,
             desc: "Im Pariser \"Magazine des Enfants\" erscheint die Geschichte \"Die Schöne und die Bestie\"."
         },
@@ -147,6 +163,10 @@ annoDomini = function() {
 		{
             date: 1799,
             desc: "Erstmals zersägt ein Zauberer auf der Bühne eine Frau."
+        },
+		{
+            date: 1799,
+            desc: "Entienne Lenoir präsentiert das Urmeter und das Urkilogramm."
         },
         {
             date: 1804,
@@ -213,12 +233,32 @@ annoDomini = function() {
             desc: "226 im Gleichschritt marschierende Soldaten bringen die Pont d´Angers zum Einsturz."
         },
 		{
+            date: 1853,
+            desc: "Der Prototyp des Tauch-Atemgeräts wird in der Seine in Paris erprobt."
+        },
+		{
             date: 1854,
             desc: "Heinrich Göbel entwickelt die erste Glühbirne noch vor Thomas Edison."
         },
 		{
+            date: 1854,
+            desc: "Erste erfolgreiche Erölbohrung"
+        },
+		{
+            date: 1855,
+            desc: "Ernst Litfass stellt in Berlin seine erste Werbesäule auf."
+        },
+		{
             date: 1859,
             desc: "Johann Philipp Reis erfindet das Telefon."
+        },
+		{
+            date: 1861,
+            desc: "In London wird die erste Rohrpostlinie installiert."
+        },
+		{
+            date: 1863,
+            desc: "Einführung der Abseits-Regel im Fußball"
         },
 		{
             date: 1864,
@@ -239,6 +279,10 @@ annoDomini = function() {
 		{
             date: 1876,
             desc: "Robert Koch begründet mit der Bakteriologie einen neuen Zweig der Wissenschaft."
+        },
+		{
+            date: 1876,
+            desc: "Der erste Paternoster geht in Betrieb."
         },
 		{
             date: 1879,
@@ -344,6 +388,10 @@ annoDomini = function() {
             date: 1908,
             desc: "Melitta Bentz erfindet den Kaffeefilter."
         },
+		{
+            date: 1908,
+            desc: "Eine öffentliche Telefonzelle wird aufgestellt."
+        },
         {
             date: 1914,
             desc: "Beginn des 1. Weltkriegs"
@@ -408,6 +456,10 @@ annoDomini = function() {
             date: 1928,
             desc: "Alexander Fleming entdeckt zufällig das Penicillin"
         },
+		{
+            date: 1928,
+            desc: "Boykow entwickelt den Autopiloten."
+        },
         {
             date: 1929,
             desc: "Beginn Weltwirtschaftskrise"
@@ -423,6 +475,10 @@ annoDomini = function() {
 		{
             date: 1931,
             desc: "Gangsterboss Al Capone muss wegen Steuerhinterziehung ins Gefängnis."
+        },
+		{
+            date: 1931,
+            desc: "In Moskau wird die erste Blutbank eingerichtet."
         },
         {
             date: 1933,
@@ -471,6 +527,10 @@ annoDomini = function() {
 		{
             date: 1946,
             desc: "Bei einer Modeschau in Paris wird der Bikini vorgeführt."
+        },
+		{
+            date: 1948,
+            desc: "Ein Schweizer Bergsteiger erfindet den Klettverschluss."
         },
 		{
             date: 1949,
@@ -560,6 +620,14 @@ annoDomini = function() {
             date: 1963,
             desc: "Tödliches Attentat auf John F. Kennedy"
         },
+		{
+            date: 1963,
+            desc: "Doug Engelbart erfindet die Computermaus."
+        },
+		{
+            date: 1964,
+            desc: "Erste Operation mit einem Laser-Skalpell"
+        },
         {
             date: 1964,
             desc: "Beginn des Vietnam-Kriegs"
@@ -606,7 +674,7 @@ annoDomini = function() {
         },
 		{
             date: 1973,
-            desc: "Im Tenni-Showkampf der Geschlechter schlägt Billy Jean King ihren Herausforderer Bobby Riggs."
+            desc: "Im Tennis-Showkampf der Geschlechter schlägt Billy Jean King ihren Herausforderer Bobby Riggs."
         },
 		{
             date: 1973,
@@ -615,6 +683,10 @@ annoDomini = function() {
         {
             date: 1974,
             desc: "US Präsident Nixon muss in der Watergate-Affäre wegen Spionageverdacht zurücktreten."
+        },
+		{
+            date: 1974,
+            desc: "Der erste Artikel mit Strichcode wird an einer Scannerkasse in Amerika erfasst."
         },
 		{
             date: 1977,
@@ -649,6 +721,14 @@ annoDomini = function() {
             desc: "Die NBA führt die Dreipunktelinie ein."
         },
 		{
+            date: 1979,
+            desc: "Die erste Weltklimakonferenz findet in Genf statt."
+        },
+		{
+            date: 1980,
+            desc: "Der Rubik-Zauberwürfel erfreut sich großer Beliebtheit."
+        },
+		{
             date: 1980,
             desc: "Die Bundesrepublik Deutschland führt die Mitteleuropäische Sommerzeit (MESZ) ein."
         },
@@ -675,6 +755,10 @@ annoDomini = function() {
 		{
             date: 1983,
             desc: "Scotland Yard ist das Spiel des Jahres."
+        },
+		{
+            date: 1983,
+            desc: "Die erste im Liniendienst verkehrende Magnetbahn startet in Birmingham."
         },
 		{
             date: 1984,
@@ -823,6 +907,10 @@ annoDomini = function() {
 		{
             date: 2003,
             desc: "Riesiger Stromausfall. Der Nordosten der USA und Kanada sind während Stunden ohne Elektrizität."
+        },
+		{
+            date: 2003,
+            desc: "Bill Yerazunis entwickelt den ersten Spamfilter."
         },
 		{
             date: 2005,
