@@ -108,6 +108,10 @@ annoDomini = function() {
             date: 1602,
             desc: "Die Geburtsstunde der Aktie in Europa"
         },
+		{
+            date: 1616,
+            desc: "Die Indianerin Pocahontas wird in London bei einem Bankett vom König empfangen."
+        },
         {
             date: 1648,
             desc: "Der Westfälische Frieden beendet den 30-jährigen Krieg."
@@ -119,6 +123,10 @@ annoDomini = function() {
 		{
             date: 1630,
             desc: "In der französischen Schrift werden Akzentzeichen eingeführt."
+        },
+		{
+            date: 1645,
+            desc: "Der Gouverneur von Haiti bringt 1600 Prostituierte auf die Pirateninsel Tortuga um die dortige Männergesellschaft zu zivilisieren."
         },
 		{
             date: 1650,
@@ -159,6 +167,10 @@ annoDomini = function() {
         {
             date: 1789,
             desc: "Französische Revolution"
+        },
+		{
+            date: 1792,
+            desc: "Eröffnung der New Yorker Börse an der Wallstreet"
         },
 		{
             date: 1799,
@@ -226,6 +238,10 @@ annoDomini = function() {
         },
 		{
             date: 1848,
+            desc: "Goldrausch in Kalifornien"
+        },
+		{
+            date: 1848,
             desc: "Mexiko muss nahezu die Hälfte seines Staatsgebiets an die USA abtreten."
         },
 		{
@@ -273,6 +289,10 @@ annoDomini = function() {
             desc: "Die USA kaufen Alaska für 7,2 Millionen Dollar von Russland."
         },
 		{
+            date: 1870,
+            desc: "Das Gummi-Kondom wird serienmäßig hergestellt."
+        },
+		{
             date: 1873,
             desc: "Levi Strauss erfindet die Jeans."
         },
@@ -307,6 +327,10 @@ annoDomini = function() {
 		{
             date: 1885,
             desc: "Gottlieb Daimler erfindet das Motorrad."
+        },
+		{
+            date: 1885,
+            desc: "Ein Drucker in Boston entwirft eine Weihnachtskarte mit einem dicken, rot gekleideten Santa Claus."
         },
 		{
             date: 1895,
@@ -466,11 +490,19 @@ annoDomini = function() {
         },
 		{
             date: 1929,
+            desc: "Sonnenbrillen sind eine Weltneuheit."
+        },
+		{
+            date: 1929,
             desc: "Adolf Rambold erfindet den Teebeutel."
         },
 		{
             date: 1930,
             desc: "Der deutsche Forscher Manfred von Ardenne erfindet das Fernsehen."
+        },
+		{
+            date: 1930,
+            desc: "Fort Knox ist erbaut."
         },
 		{
             date: 1931,
@@ -491,6 +523,10 @@ annoDomini = function() {
 		{
             date: 1934,
             desc: "Bonnie und Clyde geraten in einen Hinterhalt und werden erschossen."
+        },
+		{
+            date: 1935,
+            desc: "Auf Jamaika entsteht die Glaubensgemeinschaft der Rastafari."
         },
 		{
             date: 1936,
@@ -525,6 +561,10 @@ annoDomini = function() {
             desc: "Konrad Zuse entwickelte den ersten programmierbaren Rechner."
         },
 		{
+            date: 1945,
+            desc: "Ecuador, Paraguay, Peru, Chile, Venezuela, Uruguay und Argentinien erklären Deutschland den Krieg."
+        },
+		{
             date: 1946,
             desc: "Bei einer Modeschau in Paris wird der Bikini vorgeführt."
         },
@@ -535,6 +575,10 @@ annoDomini = function() {
 		{
             date: 1949,
             desc: "Herta Heuwer erfindet die Currywurst."
+        },
+		{
+            date: 1949,
+            desc: "Großbritannien verliert seine letzte Kolonie auf dem nordamerikanischen Kontinent"
         },
 		{
             date: 1951,
@@ -559,6 +603,10 @@ annoDomini = function() {
 		{
             date: 1956,
             desc: "Die erste Ausgabe der Jugend-Zeitschrift Bravo erscheint."
+        },
+		{
+            date: 1956,
+            desc: "IBM bringt die erste Festplatte auf den Markt."
         },
 		{
             date: 1957,
@@ -591,6 +639,10 @@ annoDomini = function() {
         {
             date: 1959,
             desc: "Che Guevara und Fidel Castro putschen in Kuba gegen Diktator Batista."
+        },
+		{
+            date: 1959,
+            desc: "Erstmals besucht ein sowjetischer Staatschef die USA"
         },
 		{
             date: 1961,
@@ -632,6 +684,14 @@ annoDomini = function() {
             date: 1964,
             desc: "Beginn des Vietnam-Kriegs"
         },
+		{
+            date: 1964,
+            desc: "Der Mythos um das Verschwinden von Schiffen und Flugzeugen im Bermuda-Dreieck entsteht."
+        },
+		{
+            date: 1967,
+            desc: "Der erste Super Bowl"
+        },
         {
             date: 1968,
             desc: "Der schwarze Bürgerrechtler Martin Luther King wird ermordet."
@@ -661,6 +721,10 @@ annoDomini = function() {
             desc: "Mercedes Benz erfindet den Airbag."
         },
 		{
+            date: 1971,
+            desc: "Das erste Starbucks-Café eröffnet in Seattle."
+        },
+		{
             date: 1972,
             desc: "Terroristen überfallen des israelische Quartier im olympischen Dorf in München."
         },
@@ -679,6 +743,10 @@ annoDomini = function() {
 		{
             date: 1973,
             desc: "Der schwedische Süßwarenvertreter Roland Ohlsson wird in einem Sarg aus Schokolade beigesetzt."
+        },
+		{
+            date: 1973,
+            desc: "Auf Kool DJ Hercs Blockpartys in New York tauchen die ersten Breakdancer auf."
         },
         {
             date: 1974,
@@ -711,6 +779,10 @@ annoDomini = function() {
 		{
             date: 1979,
             desc: "Ursula Buchfellner schafft es als erstes deutsches Playmate in den US-amerikanischen Playboy."
+        },
+		{
+            date: 1979,
+            desc: "Granwizard Theodore erfindet das Scratchen als DJ-Technik."
         },
 		{
             date: 1979,
@@ -749,6 +821,10 @@ annoDomini = function() {
             desc: "Ein bischen Frieden gewinnt als erster deutscher Beitrag den ESC."
         },
 		{
+            date: 1982,
+            desc: "In Brasilien wird die Sojabohne angepflanzt"
+        },
+		{
             date: 1983,
             desc: "Die Tagebücher Adolf Hitlers tauchen auf - und werden als Fälschung entlarvt."
         },
@@ -759,6 +835,10 @@ annoDomini = function() {
 		{
             date: 1983,
             desc: "Die erste im Liniendienst verkehrende Magnetbahn startet in Birmingham."
+        },
+		{
+            date: 1983,
+            desc: "Der erste Homecomputer mit grafischer Benutzeroberfläche kommt auf den Markt."
         },
 		{
             date: 1984,
@@ -781,12 +861,24 @@ annoDomini = function() {
             desc: "Rudi Carell präsentiert zum ersten Mal die Flirtshow Herzblatt"
         },
 		{
+            date: 1987,
+            desc: "Die Simpsons sind erstmalig im Fernsehen zu sehen."
+        },
+		{
             date: 1988,
             desc: "Das Fraunhofer Institut entwickelt das MP3-Format."
+        },
+		{
+            date: 1988,
+            desc: "In einer Garage in Menlo Park wird die Suchmaschine Google gegründet."
         },
         {
             date: 1989,
             desc: "Fall der Mauer und Öffnung aller DDR-Grenzen nach Westen."
+        },
+		{
+            date: 1989,
+            desc: "Pablo Escobar setzt in Medellin ein Kopfgeld von 500 bis 1000 Dollar auf jeden getöteten Polizisten aus."
         },
 		{
             date: 1989,
@@ -848,6 +940,10 @@ annoDomini = function() {
             date: 1994,
             desc: "Hunderten von Uruguayern fällt nach Benutzung eines Antischuppenshampoos das gesamte Haar aus."
         },
+		{
+            date: 1994,
+            desc: "Die Baseballspieler streiken. Die Saison der Profis in den USA fällt aus."
+        },
         {
             date: 1996,
             desc: "Das walisische Bergschaf „Dolly“ wird zum ersten geklonten Säugetier."
@@ -901,6 +997,10 @@ annoDomini = function() {
             desc: "In Europa wird der Euro als Zahlungsmittel eingeführt."
         },
 		{
+            date: 2002,
+            desc: "Nach einem Rechtsstreit mit dem World Wildlife Fund ändert die World Wrestling Federation ihren Namen in World Wrestling Entertainment"
+        },
+		{
             date: 2003,
             desc: "Michael Jackson wird wegen Kindesmissbrauchs angeklagt."
         },
@@ -913,6 +1013,10 @@ annoDomini = function() {
             desc: "Bill Yerazunis entwickelt den ersten Spamfilter."
         },
 		{
+            date: 2004,
+            desc: "Das chilenische Eherecht sieht nun die Möglichkeit einer Scheidung vor."
+        },
+		{
             date: 2005,
             desc: "Auf Youtube wird das erste Video hochgeladen."
         },
@@ -921,8 +1025,20 @@ annoDomini = function() {
             desc: "Modezar Rudolph Mooshammer wird in seiner Villa mit einem Telefonkabel stranguliert."
         },
 		{
+            date: 2005,
+            desc: "Der Hurrikan Katrina zerstört die Stadt New Orleans."
+        },
+		{
             date: 2006,
             desc: "Natascha Kampusch gelingt nach 8 Jahren die Flucht aus einem Kellerzimmerchen."
+        },
+		{
+            date: 2006,
+            desc: "Verhaltensforscher finden heraus, dass Elefanten sich im Spiegel selbst erkennen können."
+        },
+		{
+            date: 2006,
+            desc: "Mark Zuckerberg gibt sein Studium auf um sich ganz auf Facebook konzentrieren zu können."
         },
 		{
             date: 2007,
@@ -931,6 +1047,10 @@ annoDomini = function() {
 		{
             date: 2008,
             desc: "Satoshi Nakamoto erfindet den Bitcoin."
+        },
+		{
+            date: 2008,
+            desc: "Die Insolvenz der Investmentbank Lehman Brothers Inc. ist die größte Bankenpleite der Geschichte."
         },
 		{
             date: 2009,
