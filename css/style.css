@@ -102,6 +102,10 @@ h2 {
     box-shadow: 3px 3px 4px #ddd;
     cursor: grab;
     border-radius: 5px;
+    /* hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto; */
     -webkit-user-select: none;
     /* Safari */
     -moz-user-select: none;
@@ -158,4 +162,3 @@ h2 {
 #cardStack time {
     display: none;
 }
-
