@@ -34,6 +34,10 @@ h2 {
 	color: #999;
 }
 
+button {
+	font-family: 'Merriweather', serif;
+}
+
 #infos {
     margin: 15px 15px 15px 15px;
 	display: flex;
@@ -48,7 +52,6 @@ h2 {
     margin: 5px;
     border-radius: 5px;
     font-size: 0.8em;
-	line-height: initial;
 }
 
 #infos *:first-child {
